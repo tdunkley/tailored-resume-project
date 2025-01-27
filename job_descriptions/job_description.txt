@@ -1,0 +1,31 @@
+Company: House of Cheatham
+Desired Role: Director of Business Intelligence
+
+------------------------------------------------
+
+Position Overview:
+
+House of Cheatham, a renowned family-owned legacy company, is seeking a visionary Director of Business Intelligence to drive our data transformation journey. As a pivotal partner to the Executive Leadership Team, you will spearhead initiatives to leverage data for strategic decision-making, revenue growth, and operational excellence.
+
+
+
+
+Key Responsibilities:
+Business Reporting Insights Roadmap: Develop and implement a comprehensive strategy to transform the company into a data-driven organization. Enhance topline growth while ensuring robust bottom-line performance.
+Capability Assessment & Turnaround Strategy: Conduct a full-scale assessment of existing systems and reporting. Design and execute a turnaround strategy to consolidate reporting into a single source of truth, fostering revenue growth, margin expansion, and strong cash flow.
+Brand Portfolio Optimization: Analyze brand portfolios to identify key revenue generators, velocity contributors, and profitability drivers. Rationalize of SKU production to streamline sales, marketing, and operational efforts.
+Sales and Marketing Dashboards: Create advanced dashboards integrating real-time shipments, invoice sales, Syndicated, and POS data. Utilize these insights to define market indexing and identify opportunities for market strategies.
+Standard Operating Procedures for S&OP: Establish data-driven Standard Operating Procedures for Sales and Operations Planning (S&OP). Collaborate with cross-functional teams including Demand and Supply Planning, Procurement, master scheduling, plant operations, and finance to balance in-stock availability with customer demand.
+Production Capacity Modeling: Build and maintain a production capacity model based on Overall Equipment Effectiveness (OEE). Evaluate production capabilities against capital expenditure to optimize return on investment.
+Annual Operating Plan: Help develop the Annual Operating Plan by combining historical performance data with sales and marketing intelligence. Serve as the guiding framework for team objectives and performance targets.
+Operational Effectiveness: Enhance operational performance through real-time data visibility in production, scheduling, warehouse management, shipping, cost forecasting, and yield analysis.
+
+
+Qualifications:
+
+Proven experience in a senior business intelligence or analytics role, with a demonstrated track record of driving data-driven business transformations.
+Expertise in data analysis, dashboard creation, and operational reporting.
+Strong understanding of Sales and Operations Planning (S&OP) processes and best practices.
+Experience with production capacity modeling and financial forecasting.
+Exceptional leadership skills with the ability to influence and collaborate with executive teams.
+Advanced proficiency in business intelligence tools and data visualization platforms.
