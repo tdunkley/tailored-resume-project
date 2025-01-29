@@ -1,89 +1,57 @@
-import json
-from jinja2 import Template
-import os
+from docx import Document
+from docx.shared import Pt, RGBColor
 
-# Function to dynamically validate a section
-def validate_section(section_name, section_data):
-    validation_results = []
+# Define sample data including LinkedIn as required
+contact_info = {
+    "phone": "+1-770-401-6527",
+    "email": "tdunkley@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/troy-d-dunkley",
+    "location": "Atlanta, GA"
+}
 
-    # Ensure the section has data
-    if not section_data:
-        validation_results.append(f"Error: Section '{section_name}' is empty.")
-        return validation_results
+# Create a new Document
+doc = Document()
 
-    # Validate content and formatting dynamically
-    for key, value in section_data.items():
-        if isinstance(value, dict) and "content" in value and "formatting" in value:
-            validation_results.append(f"Validation Passed: Key '{key}' contains 'content' and 'formatting'.")
+# Add Name
+name_paragraph = doc.add_paragraph()
+name_run = name_paragraph.add_run("TROY D. DUNKLEY")
+name_run.bold = True
+name_run.font.size = Pt(14)
+
+# Add Desired Role
+role_paragraph = doc.add_paragraph()
+role_run = role_paragraph.add_run("Senior Data Architect")
+role_run.italic = True
+role_run.font.size = Pt(12)
+
+# Add Contact Info with proper formatting and clickable LinkedIn URL
+contact_paragraph = doc.add_paragraph()
+contact_order = ["phone", "email", "linkedin", "location"]
+
+# Add contact information with proper pipe separators
+for index, key in enumerate(contact_order):
+    value = contact_info.get(key, "")
+    if key == "linkedin" and value:
+        # Make the LinkedIn URL clickable
+        contact_paragraph.add_run("LinkedIn: ").font.size = Pt(11)
+        hyperlink = contact_paragraph.add_run(value)
+        hyperlink.font.size = Pt(11)
+        hyperlink.font.color.rgb = RGBColor(0, 0, 255)
+        hyperlink.underline = True
+        hyperlink.hyperlink = value
+        contact_paragraph.add_run(" | ").font.size = Pt(11)  # Add pipe separator after LinkedIn
+    elif value:
+        # Add other contact fields with separators
+        if index != len(contact_order) - 1:  # Avoid trailing pipe
+            contact_paragraph.add_run(f"{key.title()}: {value} | ").font.size = Pt(11)
         else:
-            validation_results.append(f"Warning: Key '{key}' is missing 'content' or 'formatting'.")
+            contact_paragraph.add_run(f"{key.title()}: {value}").font.size = Pt(11)
 
-    return validation_results
+# Save the document with the clickable LinkedIn URL and proper separators
+output_path_with_correct_format = 'output/personal_information_with_correct_format.docx'
+doc.save(output_path_with_correct_format)
 
-# Function to generate inline HTML preview dynamically
-def generate_html_preview(section_name, section_data, output_path):
-    # Template for preview
-    html_template = Template(
-        """
-        <html>
-        <head><title>{{ section_name }} Preview</title></head>
-        <body>
-            <h2>{{ section_name | capitalize }}</h2>
-            {% for key, value in section_data.items() %}
-                <h3>{{ key | capitalize }}</h3>
-                {% if value.content %}
-                    <p><strong>Content:</strong> {{ value.content }}</p>
-                {% endif %}
-                {% if value.formatting %}
-                    <p><strong>Formatting:</strong> {{ value.formatting }}</p>
-                {% endif %}
-            {% endfor %}
-        </body>
-        </html>
-        """
-    )
 
-    # Render preview
-    html_content = html_template.render(section_name=section_name, section_data=section_data)
-
-    # Save HTML preview
-    with open(output_path, "w", encoding="utf-8") as file:
-        file.write(html_content)
-
-# Main function to test a single section
-def test_section(section_name, json_path, output_dir):
-    # Load JSON
-    with open(json_path, "r", encoding="utf-8") as file:
-        data = json.load(file)
-
-    if section_name not in data:
-        print(f"Error: Section '{section_name}' not found in JSON.")
-        return
-
-    section_data = data[section_name]
-
-    # Step 1: Validate section
-    validation_results = validate_section(section_name, section_data)
-    for result in validation_results:
-        print(result)
-
-    # Step 2: Generate inline HTML preview
-    html_output_path = os.path.join(output_dir, f"{section_name}_preview.html")
-    generate_html_preview(section_name, section_data, html_output_path)
-    print(f"HTML Preview generated at: {html_output_path}")
-
-# Entry point
-if __name__ == "__main__":
-    # Define paths
-    project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-    json_path = os.path.join(project_root, "data/resume.json")
-    output_dir = os.path.join(project_root, "outputs")
-
-    # Ensure output directory exists
-    os.makedirs(output_dir, exist_ok=True)
-
-    # Test personal information section
-    test_section("personal_information", json_path, output_dir)
 
 
 
