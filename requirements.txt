@@ -1,3 +1,4 @@
 docxtpl
 jsonschema
 boto3
+pytest
