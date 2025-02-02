@@ -1,0 +1,70 @@
+{
+    "validation": {
+      "global_rules": {
+        "mandatory_sections": ["personal_information", "summary", "skills", "experience", "education"],
+        "no_duplicate_verbs_global": true
+      },
+      "cross_sectional_rules": {
+        "no_duplicate_verbs": {
+          "sections_to_check": ["experience", "key_achievements", "projects"],
+          "case_insensitive": true
+        },
+        "consistent_section_headers": true
+      },
+      "sectional_rules": {
+        "personal_information": {
+          "required_fields": ["name", "contact_info"],
+          "name_title_case": true,
+          "validate_email_format": true,
+          "validate_phone_format": true
+        },
+        "skills": {
+          "allow_duplicates": false,
+          "validate_skill_groups": true
+        },
+        "experience": {
+          "max_bullets_per_role": 5,
+          "require_dates": true,
+          "no_duplicate_verbs_within_section": true
+        },
+        "education": {
+          "require_degree_and_school": true
+        }
+      }
+    },
+    "paths": {
+      "base_dir": "c:/Users/troy_/Downloads/Tailored Resume Process/resume_project",
+      "scripts_dir": "scripts",
+      "sections_dir": "scripts/sections",
+      "s3_operations_dir": "scripts/s3_operations",
+      "output_dir": "output",
+      "resume_json": "resume.json"
+    },
+    "formatting": {
+      "section_headers": {
+        "font_size": 16,
+        "font_weight": "bold",
+        "line_spacing": {
+          "before": 2,
+          "after": 1
+        }
+      },
+      "section_details": {
+        "font_size": 12,
+        "line_spacing": {
+          "before": 1,
+          "after": 1
+        }
+      }
+    },
+    "logging": {
+      "log_file": "logs/bootstrap.log",
+      "log_level": "INFO"
+    },
+    "ci_cd": {
+      "enable_github_integration": true,
+      "linting_enabled": true,
+      "unit_tests_required": true
+    }
+  }
+  

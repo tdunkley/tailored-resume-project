@@ -1,0 +1,21 @@
+2025-01-31 11:19:54,085 - INFO - Bootstrap process started.
+2025-01-31 12:02:55,806 - INFO - Started tracking step: Bootstrap Initialization at 2025-01-31 12:02:55.806948
+2025-01-31 12:02:55,807 - INFO - Initializing bootstrap process...
+2025-01-31 12:02:55,807 - INFO - Path 'base_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project
+2025-01-31 12:02:55,807 - INFO - Path 'scripts_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\scripts
+2025-01-31 12:02:55,807 - INFO - Path 'sections_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\scripts\sections
+2025-01-31 12:02:55,808 - INFO - Path 's3_operations_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\scripts\s3_operations
+2025-01-31 12:02:55,808 - INFO - Path 'output_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\output
+2025-01-31 12:02:55,808 - INFO - Path 'resume_json': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\resume.json
+2025-01-31 12:02:55,808 - INFO - Started tracking step: Load Configuration at 2025-01-31 12:02:55.808361
+2025-01-31 12:02:55,808 - ERROR - Cannot log error for untracked step 'Bootstrap Error'.
+2025-01-31 12:02:55,808 - ERROR - An error occurred during the bootstrap process: [Errno 2] No such file or directory: 'config.json'
+Traceback (most recent call last):
+  File "c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\bootstrap.py", line 34, in main
+    with open(config_path, "r", encoding="utf-8") as config_file:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config.json'
+2025-02-02 15:19:58,052 - INFO - Started tracking step: Bootstrap Initialization at 2025-02-02 15:19:58.052863
+2025-02-02 15:19:58,053 - INFO - Initializing bootstrap process...
+2025-02-02 15:19:58,053 - INFO - Validating dependencies...
+2025-02-02 15:19:58,054 - ERROR - Missing files: config.json
