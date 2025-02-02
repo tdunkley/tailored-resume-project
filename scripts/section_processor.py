@@ -11,7 +11,7 @@ scripts_dir = os.path.abspath(os.path.join(current_dir, ".."))
 if scripts_dir not in sys.path:
     sys.path.append(scripts_dir)
 
-def process_section(section_name, resume_data, tracker, paths):
+def process_sections (section_name, resume_data, tracker, paths):
     """
     Processes a single section from the resume JSON file.
     

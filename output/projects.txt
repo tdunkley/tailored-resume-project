@@ -1,0 +1,5 @@
+PROJECTS
+
+Entries: [{'title': 'UA Archive', 'company': 'GAF', 'dates': '2022', 'goal': 'Archive legacy analytics reports for compliance.', 'responsibilities': 'Developed scalable export pipeline using AWS and BigQuery.', 'results': 'Reduced manual effort by 40%.'}]
+Rules: {'sectional': ['Prioritize projects relevant to the job description'], 'cross_sectional': ['Ensure consistency with Experience section verbs and skills']}
+Formatting: {'title': {'font_style': 'bold', 'font_size': 12}, 'details': {'font_style': 'regular', 'font_size': 11}, 'line_spacing': {'before': 6, 'after': 6}}

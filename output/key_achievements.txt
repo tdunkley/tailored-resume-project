@@ -1,0 +1,5 @@
+KEY_ACHIEVEMENTS
+
+Entries: [{'title': 'Spearheaded Digital Transformation Initiative', 'description': 'Orchestrated a company-wide initiative, improving efficiency by 30%.'}, {'title': 'Enhanced Data Analytics Capabilities', 'description': 'Built scalable solutions, driving insights for strategic decisions.'}]
+Rules: {'sectional': ['Highlight measurable outcomes', 'Avoid vague or generic achievements'], 'cross_sectional': ['No repeated achievements across roles and projects']}
+Formatting: {'title': {'font_style': 'bold', 'font_size': 12}, 'description': {'font_style': 'regular', 'font_size': 11}, 'line_spacing': {'before': 6, 'after': 6}}

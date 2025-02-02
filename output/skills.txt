@@ -1,0 +1,5 @@
+SKILLS
+
+Groups: [{'group_name': 'Technical Skills', 'skills_list': ['Python', 'SQL', 'Power BI', 'AWS']}, {'group_name': 'Soft Skills', 'skills_list': ['Data Governance', 'Predictive Analytics']}]
+Rules: {'sectional': ['Reflect skills explicitly stated in the job description', 'Avoid unrelated skills'], 'global': ['No duplicate skills across the resume']}
+Formatting: {'group_name': {'font_style': 'bold', 'font_size': 12}, 'skills_list': {'sentence_case': True, 'separator': ', ', 'font_size': 11}}

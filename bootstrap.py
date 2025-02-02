@@ -4,17 +4,15 @@ import logging
 import json
 from datetime import datetime
 
-
 # Dynamically add the scripts directory to the Python path
 current_dir = os.path.dirname(os.path.abspath(__file__))
 scripts_dir = os.path.join(current_dir, "scripts")
 sys.path.append(scripts_dir)
 
-
 from core import get_paths, setup_logging
 from tracker import CentralizedTracker
 from validation_engine import validate_global_rules, validate_cross_sectional_rules
-from section_processor import process_section
+from section_processor import process_sections
 
 # Configure logging
 setup_logging("bootstrap.log")
@@ -65,7 +63,6 @@ def validate_dependencies():
 
     logger.info("All dependencies validated successfully.")
 
-
 def main():
     """Main bootstrap process."""
     try:
@@ -103,14 +100,15 @@ def main():
 
         # Process sections
         tracker.start_tracking("Process Sections")
-        process_sections(resume_data, paths)
+        for section_name in resume_data.get("sections", {}).keys():
+            process_sections(section_name, resume_data, tracker, paths)
         tracker.end_tracking("Process Sections")
 
         tracker.end_tracking("Bootstrap Initialization")
         logger.info("Bootstrap process completed successfully.")
 
     except Exception as e:
-        tracker.log_error(f"Bootstrap Error: {e}")
+        tracker.track_error(f"Bootstrap Error: {e}")  # Correct the method call
         logger.error(f"An error occurred during the bootstrap process: {e}", exc_info=True)
         sys.exit(1)
 
