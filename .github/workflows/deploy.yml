@@ -42,4 +42,4 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_DEFAULT_REGION: ${{ secrets.AWS_REGION }}
         run: |
-          aws s3 cp output/ s3://your-bucket-name/output/ --recursive
+          aws s3 cp output/ s3://resume-tailoring-storage/ --recursive --region us-east-2
