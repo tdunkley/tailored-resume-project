@@ -43,3 +43,6 @@ jobs:
           AWS_DEFAULT_REGION: ${{ secrets.AWS_REGION }}
         run: |
           aws s3 cp output/ s3://resume-tailoring-storage/ --recursive --region us-east-2
+
+      - name: Debug S3 Bucket
+        run: aws s3 ls s3://resume-tailoring-storage --region us-east-2
