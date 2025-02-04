@@ -4,50 +4,40 @@ on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
 
 jobs:
   test_and_deploy:
     runs-on: ubuntu-latest
 
     steps:
-    # Step 1: Check out the code
-    - name: Check out code
-      uses: actions/checkout@v3
+      - name: Check out code
+        uses: actions/checkout@v3
 
-    # Step 2: Set up Python environment
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.9'  # Use your desired Python version
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
 
-    # Step 3: Install dependencies
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-        pip install pytest boto3  # Ensure pytest and AWS SDK are installed
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-    # Step 4: Run unit tests
-    - name: Run Unit Tests
-      run: pytest tests/  # Replace "tests/" with your test directory if different
+      - name: Run Unit Tests
+        run: |
+          pytest tests/
 
-    # Step 5: Install AWS CLI (optional if boto3 doesn't cover your use case)
-    - name: Install AWS CLI
-      run: |
-        curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-        unzip awscliv2.zip
-        sudo ./aws/install
-        aws --version
+      - name: Install AWS CLI
+        run: |
+          curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+          unzip awscliv2.zip
+          sudo ./aws/install --update
 
-    # Step 6: Deploy to S3
-    - name: Deploy to S3
-      env:
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        AWS_DEFAULT_REGION: us-east-2
-      run: |
-        aws s3 cp output/ s3://resume-tailoring-storage/ --recursive
+      - name: Deploy to S3
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: ${{ secrets.AWS_REGION }}
+        run: |
+          aws s3 cp output/ s3://resume-tailoring-storage/ --recursive
 
