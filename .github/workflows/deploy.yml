@@ -48,10 +48,27 @@ jobs:
 
       - name: Notify on Success
         if: success()
-        run: |
-          echo "Build and deployment succeeded!" | mail -s "CI/CD Success" recipient@example.com
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.example.com
+          server_port: 587
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: "CI/CD Success"
+          body: "Build and deployment succeeded!"
+          to: recipient@example.com
+          from: sender@example.com
 
       - name: Notify on Failure
         if: failure()
-        run: |
-          echo "Build and deployment failed!" | mail -s "CI/CD Failure" recipient@example.com
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.example.com
+          server_port: 587
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: "CI/CD Failure"
+          body: "Build and deployment failed!"
+          to: recipient@example.com
+          from: sender@example.com
+
