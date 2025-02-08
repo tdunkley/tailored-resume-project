@@ -38,13 +38,13 @@ jobs:
           unzip awscliv2.zip
           sudo ./aws/install --update
 
-      - name: Deploy to S3
+      - name: Cleanup and Upload to S3
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: ${{ secrets.AWS_REGION }}
         run: |
-          aws s3 cp output/ s3://resume-tailoring-storage/ --recursive
+          python scripts/s3_cleanup_and_upload.py
 
       - name: Print Environment Variables
         run: |
@@ -75,4 +75,5 @@ jobs:
           body: "Build and deployment failed!"
           to: ${{ secrets.EMAIL_TO }}
           from: sender@example.com
+
 
