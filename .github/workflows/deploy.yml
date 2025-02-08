@@ -23,6 +23,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Run Linter
+        run: |
+          pip install flake8
+          flake8 .
+
       - name: Run Unit Tests
         run: |
           pytest tests/
@@ -41,3 +46,12 @@ jobs:
         run: |
           aws s3 cp output/ s3://resume-tailoring-storage/ --recursive
 
+      - name: Notify on Success
+        if: success()
+        run: |
+          echo "Build and deployment succeeded!" | mail -s "CI/CD Success" recipient@example.com
+
+      - name: Notify on Failure
+        if: failure()
+        run: |
+          echo "Build and deployment failed!" | mail -s "CI/CD Failure" recipient@example.com
