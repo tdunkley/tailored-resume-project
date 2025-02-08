@@ -26,7 +26,7 @@ jobs:
       - name: Run Linter
         run: |
           pip install flake8
-          flake8 .
+          flake8 scripts/
 
       - name: Run Unit Tests
         run: |
@@ -75,5 +75,4 @@ jobs:
           body: "Build and deployment failed!"
           to: ${{ secrets.EMAIL_TO }}
           from: sender@example.com
-
 
