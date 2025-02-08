@@ -46,29 +46,33 @@ jobs:
         run: |
           aws s3 cp output/ s3://resume-tailoring-storage/ --recursive
 
+      - name: Print Environment Variables
+        run: |
+          printenv
+
       - name: Notify on Success
         if: success()
         uses: dawidd6/action-send-mail@v3
         with:
-          server_address: smtp.example.com
+          server_address: smtp.gmail.com
           server_port: 587
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
           subject: "CI/CD Success"
           body: "Build and deployment succeeded!"
-          to: recipient@example.com
+          to: ${{ secrets.EMAIL_TO }}
           from: sender@example.com
 
       - name: Notify on Failure
         if: failure()
         uses: dawidd6/action-send-mail@v3
         with:
-          server_address: smtp.example.com
+          server_address: smtp.gmail.com
           server_port: 587
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
           subject: "CI/CD Failure"
           body: "Build and deployment failed!"
-          to: recipient@example.com
+          to: ${{ secrets.EMAIL_TO }}
           from: sender@example.com
 
