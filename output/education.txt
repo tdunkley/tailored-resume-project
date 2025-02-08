@@ -1,0 +1,4 @@
+EDUCATION
+
+Entries: [{'school': 'Flatiron School', 'degree': 'Certificate of Completion', 'location': 'Atlanta, GA', 'focus': 'Data Science'}, {'school': 'Keller Graduate School of Management', 'degree': 'MBA', 'location': 'Atlanta, GA', 'focus': 'Information Systems Management'}]
+Formatting: {'font_size': 11, 'font_style': 'regular', 'line_spacing': {'before': 6, 'after': 6}}

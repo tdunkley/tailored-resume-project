@@ -1,0 +1,269 @@
+{
+    "sections": {
+        "personal_information": {
+            "name": "Troy D. Dunkley",
+            "desired_role": "Senior Data Architect",
+            "contact_info": {
+                "phone": "+1-770-401-6527",
+                "email": "tdunkley@gmail.com",
+                "location": "Atlanta, GA",
+                "linkedin": "https://www.linkedin.com/in/troy-d-dunkley"
+            }
+        },
+        "summary": [
+            "Visionary Data and Business Intelligence Technology Leader with over 15 years of experience driving business transformation through innovative data strategies and comprehensive solutions. Proven track record of implementing cutting-edge technologies, including data fabric, data mesh, and cloud-based analytics platforms, significantly improved operational efficiency and data-driven decision-making. Demonstrated success in reducing costs, improving data quality, and accelerating time-to-insight across various industries, including retail, finance, and healthcare. Committed to staying at the forefront of emerging technologies and industry best practices to deliver transformative results.",
+            "Tailored for the role of Business Intelligence Consultant at Sibitalent.",
+            "Tailored for the role of SQL Developer at Innova Solutions.",
+            "Tailored for the role of Data, Strategy and Innovation - Director at City of Atlanta.",
+            "Tailored for the role of Senior Director of Data Engineering at Playwire.",
+            "Tailored for the role of Business/QA Analyst at Sun Technologies.",
+            "Tailored for the role of Sr. Software Engineer at AgreeYa Solutions.",
+            "Tailored for the role of Manager Financial Analysis & Reporting at King & Spalding.",
+            "Tailored for the role of Director of Business Intelligence at House of Cheatham.",
+            "Tailored for the role of Director, Business Intelligence at Restaurant365.",
+            "Tailored for the role of VP, Global Engineering at ServiceChannel.",
+            "Tailored for the role of Director of Data at Loop Returns."
+        ],
+        "skills": {
+            "groups": [
+                {
+                    "group_name": "Data Management and Analytics",
+                    "skills_list": [
+                        "Cloud-based Data Solutions (AWS, Azure, Google Cloud)"
+                    ]
+                },
+                {
+                    "group_name": "Technical Proficiencies",
+                    "skills_list": [
+                        "Programming: Python, SQL, T-SQL"
+                    ]
+                },
+                {
+                    "group_name": "Enterprise Systems",
+                    "skills_list": []
+                },
+                {
+                    "group_name": "Infrastructure and Security",
+                    "skills_list": [
+                        "Network Monitoring: SolarWinds N-Central"
+                    ]
+                },
+                {
+                    "group_name": "Emerging Technologies",
+                    "skills_list": []
+                },
+                {
+                    "group_name": "Leadership and Strategy",
+                    "skills_list": []
+                },
+                {
+                    "group_name": "Business Acumen",
+                    "skills_list": []
+                },
+                {
+                    "group_name": "Industry Knowledge",
+                    "skills_list": []
+                }
+            ]
+        },
+        "experience": [
+            {
+                "company": "Black Nisus, LLC",
+                "title": "Data Evangelist",
+                "location": "Atlanta, GA",
+                "dates": "May 2020 - Present",
+                "responsibilities": [
+                    "Drive data strategy transformation to enhance analytics processes, infrastructure, and insights generation.",
+                    "Collaborate with Agile teams to develop tailored full-stack solutions using cutting-edge technologies.",
+                    "Design and implement cloud-based solutions on AWS, Azure, and Google Cloud for robust and scalable data processing workflows.",
+                    "Conduct performance tuning and enhancement of SQL Server databases, achieving up to 50% improvement in query performance.",
+                    "Lead data transformation initiatives, integrating advanced analytics and machine learning for strategic decision-making.",
+                    "Develop comprehensive business intelligence strategies, including dashboard creation and operational reporting.",
+                    "Implement data governance frameworks to ensure data quality, integrity, and compliance with industry standards.",
+                    "Facilitate cross-functional collaboration to align data initiatives with business objectives and operational needs.",
+                    "Mentor and develop team members, fostering a culture of continuous improvement and innovation.",
+                    "Build strong relationships with customers through attentive listening skills and excellent problem-solving abilities.",
+                    "Develop and implement strategies to increase market share and profitability in highly competitive industries.",
+                    "Manage executive-level relationships with key stakeholders to ensure alignment on strategic objectives.",
+                    "Conduct extensive research on new trends in Business Intelligence technology, such as Artificial Intelligence and Machine Learning."
+                ]
+            },
+            {
+                "company": "The Walking Company",
+                "title": "Director of Business Intelligence",
+                "location": "Atlanta, GA",
+                "dates": "August 2016 - May 2019",
+                "responsibilities": [
+                    "Developed and optimized data management systems using SQL Server and other RDBMS platforms to enhance reporting accuracy and efficiency.",
+                    "Collaborated with cross-functional teams in Agile environments to implement data solutions that aligned with business objectives.",
+                    "Integrated advanced technologies, including machine learning and cloud solutions, to improve data handling and analytics capabilities.",
+                    "Mentored junior engineers, fostering a culture of knowledge sharing and continuous improvement in data practices.",
+                    "Managed a team of Data Analysts to ensure timely delivery of projects.",
+                    "Developed best practices for maintaining security standards when dealing with sensitive information.",
+                    "Gathered requirements from key stakeholders and translated them into technical specifications for BI solutions.",
+                    "Established relationships with external vendors to acquire additional datasets which enabled deeper insights into customer preferences.",
+                    "Optimized existing processes by utilizing statistical techniques such as regression analysis and clustering algorithms.",
+                    "Prepared detailed documentation about all aspects of the BI architecture to simplify maintenance operations."
+                ]
+            },
+            {
+                "company": "Benchmark Brands, Inc.",
+                "title": "Director of Business Intelligence",
+                "location": "Atlanta, GA",
+                "dates": "May 2015 - August 2016",
+                "responsibilities": [
+                    "Designed and implemented secure, scalable data warehousing solutions, enhancing data accessibility and reliability.",
+                    "Translated complex technical concepts for non-technical stakeholders to support informed decision-making.",
+                    "Promoted the adoption of advanced data modeling and analytics tools, driving business performance improvements.",
+                    "Developed complex SQL queries and data models to support comprehensive reporting and analytics.",
+                    "Developed and implemented a comprehensive Business Intelligence strategy to improve data-driven decision-making.",
+                    "Led the design, development, and deployment of advanced analytics solutions in support of business objectives."
+                ]
+            },
+            {
+                "company": "Benchmark Brands, Inc.",
+                "title": "Senior Manager, Business Intelligence",
+                "location": "Atlanta, GA",
+                "dates": "April 2012 - May 2015",
+                "responsibilities": [
+                    "Implemented a data-driven culture, increasing data utilization by 25% and improving decision-making across all business units.",
+                    "Developed a comprehensive data governance framework, achieving a 95% data accuracy rate and ensuring compliance with data privacy regulations.",
+                    "Designed and executed advanced analytics and predictive modeling techniques, improving forecasting accuracy by 15% and supporting strategic planning initiatives.",
+                    "Enhanced self-service analytics adoption by 25% through BI training programs, improving data literacy and empowering business users.",
+                    "Streamlined BI development processes, reducing project delivery time by 20% and improving responsiveness to business needs."
+                ]
+            }
+        ],
+        "education": [
+            {
+                "school": "Keller Graduate School of Management",
+                "degree": "MBA",
+                "location": "Atlanta, GA",
+                "focus": "Information Systems Management"
+            },
+            {
+                "school": "Georgia State University",
+                "degree": "BBA",
+                "location": "Atlanta, GA",
+                "focus": "Finance"
+            }
+        ],
+        "certifications": [
+            {
+                "group_name": "Completed Certifications",
+                "certifications_list": [
+                    "Certificate of Completion in Data Science - Flatiron School",
+                    "Microsoft Certified Technology Specialist in SQL Server Business Intelligence",
+                    "Microsoft Certified Professional"
+                ]
+            },
+            {
+                "group_name": "Certifications in Progress",
+                "certifications_list": [
+                    "AWS Certified Solutions Architect - Associate (Target Completion: February 2025)",
+                    "Certified Scrum Master (Target Completion: March 2025)",
+                    "Microsoft Certified: Azure Data Engineer Associate (Target Completion: March 2025)"
+                ]
+            },
+            {
+                "group_name": "Planned Certifications",
+                "certifications_list": [
+                    "Google Professional Data Engineer (Target Completion: April 2025)",
+                    "Databricks Certified Data Engineer Associate (Target Completion: June 2025)",
+                    "AWS Certified Machine Learning - Specialty (Target Completion: July 2025)"
+                ]
+            }
+        ],
+        "key_achievements": [
+            {
+                "title": "Data Fabric",
+                "description": "Spearheaded the implementation of a comprehensive data fabric solution for a Fortune 500 company, resulting in a 40% improvement in data accessibility and a 25% reduction in data management costs."
+            },
+            {
+                "title": "Data Mesh",
+                "description": "Designed and executed data mesh architecture for a global financial services firm, enabling real-time data sharing across 20+ business units and improving decision-making speed by 60%."
+            },
+            {
+                "title": "Cloud Data Lake",
+                "description": "Led the development of a cloud-based data lake for a major retailer, consolidating data from 50+ sources and enabling advanced analytics that drove a 15% increase in customer retention."
+            },
+            {
+                "title": "Predictive Maintenance",
+                "description": "Implemented a machine learning-driven predictive maintenance system for a manufacturing client, reducing equipment downtime by 30% and saving $5 million annually in maintenance costs."
+            },
+            {
+                "title": "Fraud Detection",
+                "description": "Developed a real-time fraud detection system for a fintech startup, leveraging advanced analytics and machine learning to reduce fraudulent transactions by 75% within the first six months of deployment."
+            },
+            {
+                "title": "Customer 360",
+                "description": "Led a cross-functional team in creating a customer 360 platform for a telecommunications company, integrating data from 10+ systems to provide a unified view of 50 million customers, resulting in a 20% increase in upsell opportunities."
+            },
+            {
+                "title": "Data Governance",
+                "description": "Designed and implemented a data governance framework for a healthcare provider, ensuring HIPAA compliance and improving data quality scores by 40% across critical datasets."
+            },
+            {
+                "title": "IoT Analytics",
+                "description": "Architected a scalable IoT data processing platform for a smart city initiative, handling data from 100,000+ sensors and enabling real-time analytics for traffic management, reducing average commute times by 15%."
+            },
+            {
+                "title": "NLP Solution",
+                "description": "Developed a natural language processing solution for a global media company, automating content tagging and recommendation engines, leading to a 35% increase in user engagement and content consumption."
+            },
+            {
+                "title": "Cloud Migration",
+                "description": "Led the migration of a legacy data warehouse to a modern cloud-based analytics platform for a financial services client, reducing query times by 90% and enabling self-service analytics for 5,000+ users."
+            }
+        ],
+        "projects": [
+            {
+                "title": "Data Reporting and Validation Enhancements",
+                "company": "GAF Materials Corp.",
+                "dates": "2023-Present",
+                "goal": "Streamline data reporting and validation processes by transitioning to advanced analytics platforms, ensuring data integrity and consistency across multiple systems.",
+                "responsibilities": "Managed the transition of UA reports to a structured reporting system, conducted UAT for GA4 to ensure data accuracy, developed custom reports in BigQuery, and validated data consistency across BigQuery, Google Analytics, and Amazon S3.",
+                "results": "Successfully transitioned UA reports with 95% data integrity, validated GA4 reports with 95% accuracy, developed custom reports with 98% validation success, and ensured 98% data consistency across systems to enhance reliability and decision-making."
+            },
+            {
+                "title": "Web and Mobile Analytics Enhancement",
+                "company": "Nando's",
+                "dates": "2023-Present",
+                "goal": "Enhance the understanding of user behavior across web and mobile platforms, improving engagement and optimizing marketing strategies.",
+                "responsibilities": "Analyzed session effectiveness from 'oat / qr_code' using BigQuery and TagPipes, tracked new and returning user sessions for engagement and retention insights, and evaluated web and mobile user behavior in the U.S. and Canada.",
+                "results": "Achieved a 5% conversion rate from 'oat / qr_code' traffic, improved new user engagement, identified returning users as 40% of sessions, recorded a 25% rise in app sessions, and provided insights into U.S. and Canadian web traffic trends."
+            },
+            {
+                "title": "Cloud Migration and Data Integration",
+                "company": "Rawsoft",
+                "dates": "2023-Present",
+                "goal": "Streamline data operations by migrating legacy systems to a cloud-based infrastructure, enhancing data integration and accessibility.",
+                "responsibilities": "Led legacy system migration to AWS with minimal downtime, built automated data pipelines with Python and SQL, aligned data strategies with business goals, and implemented data governance for quality, security, and compliance.",
+                "results": "Optimized cloud resources to cut costs by 25%, boosted data processing speed by 35%, improved cross-department collaboration by 20%, and reduced data errors by 30% through enhanced governance."
+            },
+            {
+                "title": "Data Optimization and Reporting Enhancements",
+                "company": "Mitchell Gold + Bob Williams",
+                "dates": "2021-2023",
+                "goal": "Improve inventory management, sales reporting, and customer data integration to enhance operational efficiency and strategic decision-making.",
+                "responsibilities": "Developed Power BI reports for sales and inventory tracking, automated profitability analysis, evaluated vendors for a unified CDP, and conducted KPI analysis to align data processes with business goals.",
+                "results": "Reduced overstocks by 15% and inventory costs by $50K annually, improved forecasting accuracy by 20%, cutting write-offs by $100K, increased sales agility by 20%, enhanced marketing efficiency by 12%, boosting LTV by 7%, and addressed 25% of reporting gaps, reducing delays by 15%."
+            },
+            {
+                "title": "Data Analytics Initiative",
+                "company": "Mitchell Gold + Bob Williams",
+                "dates": "2021",
+                "goal": "Enhance Krystal Restaurants' data infrastructure and analytics capabilities, improving operational efficiency and strategic decision-making.",
+                "responsibilities": "Designed and implemented a new data architecture, collaborated with teams to tailor data solutions, developed advanced models for sales forecasting and inventory management, integrated machine learning for predictive analytics, and enforced data integrity through governance.",
+                "results": "Optimized data processing speed by 40%, improved accuracy by 25%, reduced redundancy by 30%, enhanced user engagement by 20% with intuitive dashboards, and increased sales forecasting accuracy by 15% for better inventory management."
+            }
+        ],
+        "job_description": {
+            "companyName": "Loop Returns",
+            "title": "Director of Data",
+            "location": "USA",
+            "description": "About the job: Loop is in an unparalleled position to provide data to our merchants that no one else is able to replicate. Data will be at the core of everything we do and some of our most critical work as we grow. Our future is to create data-based products that use modern techniques for delivering not only data, but also invaluable insights. We'll identify problems our merchants don't even know they have and use our data to create solutions that thrill merchants with their ability to predict and forecast their customer's needs. As the Director of Data , you'll lead a talented team of data professionals to develop and scale data products that provide critical insights for our merchants. You'll set the vision for our data strategy, ensuring collaboration across teams to drive impactful, data-driven decisions at Loop. But the impact you'll have doesn't stop there! By reporting through Product, this will allow you to be part of the Product leadership team and contribute to overall product strategy and vision. Right away, we've listed what we think you'll be spending your time on. We're growing fast, and growth means the challenges we'll work on together will change as we lead Loop through new and different phases. This is an indispensable role with us, so we'll be looking for you to have examples of when you've tackled these challenges throughout your career. We've laid out the experience we think is important to set you up for success in this role. But, we appreciate that different humans will solve problems in different ways, so we don't expect you to fit exactly in a box of requirements. At Loop, we believe that flexibility and choice are what allow you to do your best work. With our Blended Working Environment, you have options ranging from joining our HQ office (in Columbus, Ohio), opting into a Hub (a location with 4+ team members), or staying totally secluded (our version of remote). Our team is spread across the United States, select provinces in Canada (Ontario & British Columbia), and the United Kingdom. Wherever you live, you can create the work environment that best matches your preferences and lifestyle. What You'll Do: Harness the unique power and scale of Loop's data from thousands of merchants (including Shopify's largest and most influential brands) and their customers and transactions to transform Data at Loop from being a supporting and serving function to one that is invaluable to the service of customers and the development of our products. Ensure Loop is set up for success to provide insights and analysis to customers and internal Loop employees while creating unique value and monetization opportunities with data products. To accomplish this, you will create and maintain the overall data roadmap, which balances internal and external stakeholder needs. Set the vision and direction for data strategy and architecture, ensuring that we are planning, building and scaling for the future. Initiate innovative efforts to mature our tools, systems, and processes to accomplish this future. Serve as part of the Product leadership team, reporting to the SVP of Product. You will contribute to the product strategy and vision, ensuring that data is used to make decisions and create unparalleled value. You effectively communicate up, down, and across to ensure executives, stakeholders, peers and your team understand the priorities of the business, the priorities of the data team and how to best deliver against those priorities together. You are a champion and are able to gain the trust and buy-in of cross-functional stakeholders, leaders and your team. Oversee the adoption and utilization of our data collection and data visualization tools. We're currently using Snowflake, Fivetran, Monte Carlo, dbt, Hex, Secoda, along with other native capabilities of AWS. You'll be leading a well-established and impactful team of data analysts, analytics engineers, data engineers, and machine learning engineers. You will enable them to grow and effectively collaborate with teams to build products that solve crucial business problems. You'll also partner with the People team to hire awesome, incredibly talented data experts and structure the team in a way that most effectively delivers results. Elevate the culture at Loop by demonstrating behaviors that are important to delivery while staying aligned with our core values. This includes a bias for action and leading by example to motivate, support and make team members better. We're an early stage company, you'll wear many hats in this role and be responsible for owning both strategy and execution. Your Experience:7+ years of data experience. 5+ years of experience leading modern data teams. 5+ years experience building and monetizing data products. Having experience in the commerce space is very important to us, and is required for this role. You've also worked at a startup company (or a few) and know what it means to make it through the various stages of rapid growth. You have demonstrable experience building collaborative processes between data, engineering, and product teams to solve critical business problems with data products. Demonstrated experience and familiarity with shipping analytics/ML-based products to live production environments using cloud computing platforms such as AWS, GCP, Azure, etc. You're a champion of data, and can share some examples with us of how you've driven key business results by enabling the use of data in your organizations. You have examples to share of how you've successfully influenced and managed broad stakeholder priorities. You have also created exceptional partnerships with your internal partners, and quickly became one of their favorite people to work with. Hands-on experience with SQL, ETL, Python, R, or Software Development is highly desirable and imperative to being successful in this role. Have an attitude that truly nothing is \u201cnot your job. \u201d You should feel excited by the need to act like an owner to solve problems and dig in, wherever needed. $196, 800 - $295, 200 a yearWe know that making decisions about your career and compensation is a huge deal. Because of that, we're incredibly thoughtful about our compensation strategy. We want you to feel safe and excited, but also comfortable with the compensation package of a startup. We've outlined some important information for you here, but please know there's a lot more to compensation than we can cover in this job posting. The posted salary range is the base salary for this opportunity. The salary range is subject to change, and may be adjusted in the future. The actual annual salary paid for this position will be based on several factors, including, but not limited to: your prior experience and skills related to the position, geographic location, company needs, current market demands, and your total compensation goals. This position is also eligible for an annual performance bonus expected to be 15% of your base salary. Great humans deserve great benefits! At Loop, you'll be eligible for benefits such as: medical, dental, and vision insurance, flexible PTO, company holidays, sick & safe leave, parental leave, 401k, monthly wellness benefit, home workstation benefit, phone/internet benefit, and equity. Loop StoryIn a perfect world, Loop wouldn't exist. If we had our way, we'd live in a world where we're mindful about how we consume, we love every product we own, and we share values with the brands who create them. In reality, commerce isn't perfect and often breaks. Loop creates second chances. We're starting by revolutionizing the post-purchase experience. We've taken one of the most fragile commerce interactions - returns - and turned it into something consumers actually love, and that deepens our connection to brands and products. We take connection seriously on the inside, too. We're building a work experience that allows you to Be A Human First and prioritizes empathy and wellbeing. We view Loop as a special place in your career to shape the future of an industry and become a better person while doing it. You can grow faste r here in a shorter amount of time - we'll give you space and trust you to fill it. Learn more about us here: https://loopreturns. com/careers . You can review our privacy notice here .",
+            "requirements": ""
+        }
+    }
+}

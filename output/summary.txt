@@ -1,0 +1,6 @@
+SUMMARY
+
+Static_Content: Visionary Data and Analytics Executive with over 15 years of experience.
+Dynamic_Content: Specializes in leveraging data to drive decision-making, enhance operations, and achieve measurable business outcomes.
+Rules: {'sectional': ['Ensure the summary reflects the job description.', 'Limit content to two concise sentences.'], 'cross_sectional': ['No duplicate verbs across Summary, Experience, and Key Achievements.']}
+Formatting: {'font_size': 12, 'font_style': 'italic', 'line_spacing': {'before': 6, 'after': 6}}

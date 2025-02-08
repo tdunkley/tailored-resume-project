@@ -1,0 +1,300 @@
+{
+    "sections": {
+        "personal_information": {
+            "name": "Troy D. Dunkley",
+            "desired_role": "Senior Data Architect",
+            "contact_info": {
+                "phone": "+1-770-401-6527",
+                "email": "tdunkley@gmail.com",
+                "location": "Atlanta, GA",
+                "linkedin": "https://www.linkedin.com/in/troy-d-dunkley"
+            }
+        },
+        "summary": [
+            "Visionary Data and Business Intelligence Technology Leader with over 15 years of experience driving business transformation through innovative data strategies and comprehensive solutions. Proven track record of implementing cutting-edge technologies, including data fabric, data mesh, and cloud-based analytics platforms, significantly improved operational efficiency and data-driven decision-making. Demonstrated success in reducing costs, improving data quality, and accelerating time-to-insight across various industries, including retail, finance, and healthcare. Committed to staying at the forefront of emerging technologies and industry best practices to deliver transformative results."
+        ],
+        "skills": {
+            "groups": [
+                {
+                    "group_name": "Data Management and Analytics",
+                    "skills_list": [
+                        "Data Fabric and Data Mesh Architecture",
+                        "Data Governance and Quality Management",
+                        "Big Data Technologies",
+                        "Cloud-based Data Solutions (AWS, Azure, Google Cloud)",
+                        "Advanced Analytics and Machine Learning",
+                        "Statistical Analysis and Predictive Modeling",
+                        "Data Visualization (Tableau, Power BI)"
+                    ]
+                },
+                {
+                    "group_name": "Technical Proficiencies",
+                    "skills_list": [
+                        "Programming: Python, SQL, T-SQL",
+                        "ETL and Data Integration: Azure Data Factory",
+                        "Cloud Platforms: AWS (Amazon S3), Azure, Google Cloud",
+                        "Other Analytics Tools: Google Analytics, Excel",
+                        "Databases: SQL Server, BigQuery, Open Source RDBMS",
+                        "Data Processing: Jira, TagPipes",
+                        "Business Intelligence Tools: IBM Cognos, Power BI, Tableau"
+                    ]
+                },
+                {
+                    "group_name": "Enterprise Systems",
+                    "skills_list": [
+                        "ERP: Microsoft Dynamics GP",
+                        "HR Systems: ADP Workforce Now, Schoox LMS, TalentReef",
+                        "CRM: Salesforce",
+                        "Specialized Tools: OlO Reconciliation System, Lighthouse System, DataBridge"
+                    ]
+                },
+                {
+                    "group_name": "Infrastructure and Security",
+                    "skills_list": [
+                        "Virtualization: VMware",
+                        "HR Systems: ADP Workforce Now, Schoox LMS, TalentReef",
+                        "Network Monitoring: SolarWinds N-Central"
+                    ]
+                },
+                {
+                    "group_name": "Emerging Technologies",
+                    "skills_list": [
+                        "AI and Natural Language Processing: ChatGPT, Perplexity AI",
+                        "CDP Vendors"
+                    ]
+                },
+                {
+                    "group_name": "Leadership and Strategy",
+                    "skills_list": [
+                        "Strategic Planning and Execution",
+                        "Stakeholder Management",
+                        "Digital Transformation Initiatives",
+                        "Team Leadership and Mentoring",
+                        "Project Management (Agile methodologies)",
+                        "Change Management"
+                    ]
+                },
+                {
+                    "group_name": "Business Acumen",
+                    "skills_list": [
+                        "Financial Analysis and Reporting",
+                        "Market Analysis",
+                        "Sustainable Business Models",
+                        "Sales and Operations Planning",
+                        "Customer 360 Strategies",
+                        "Crisis Management"
+                    ]
+                },
+                {
+                    "group_name": "Industry Knowledge",
+                    "skills_list": [
+                        "Retail Analytics",
+                        "Healthcare Data Management",
+                        "Manufacturing and Supply Chain Analytics",
+                        "Financial Services",
+                        "IoT and Smart City Solutions"
+                    ]
+                }
+            ]
+        },
+        "experience": [
+            {
+                "company": "Black Nisus, LLC",
+                "title": "Data Evangelist",
+                "location": "Atlanta, GA",
+                "dates": "May 2020 - Present",
+                "responsibilities": [
+                    "Drive data strategy transformation to enhance analytics processes, infrastructure, and insights generation.",
+                    "Collaborate with Agile teams to develop tailored full-stack solutions using cutting-edge technologies.",
+                    "Design and implement cloud-based solutions on AWS, Azure, and Google Cloud for robust and scalable data processing workflows.",
+                    "Conduct performance tuning and enhancement of SQL Server databases, achieving up to 50% improvement in query performance.",
+                    "Lead data transformation initiatives, integrating advanced analytics and machine learning for strategic decision-making.",
+                    "Develop comprehensive business intelligence strategies, including dashboard creation and operational reporting.",
+                    "Implement data governance frameworks to ensure data quality, integrity, and compliance with industry standards.",
+                    "Facilitate cross-functional collaboration to align data initiatives with business objectives and operational needs.",
+                    "Mentor and develop team members, fostering a culture of continuous improvement and innovation.",
+                    "Build strong relationships with customers through attentive listening skills and excellent problem-solving abilities.",
+                    "Develop and implement strategies to increase market share and profitability in highly competitive industries.",
+                    "Manage executive-level relationships with key stakeholders to ensure alignment on strategic objectives.",
+                    "Conduct extensive research on new trends in Business Intelligence technology, such as Artificial Intelligence and Machine Learning."
+                ]
+            },
+            {
+                "company": "The Walking Company",
+                "title": "Director of Business Intelligence",
+                "location": "Atlanta, GA",
+                "dates": "August 2016 - May 2019",
+                "responsibilities": [
+                    "Developed and optimized data management systems using SQL Server and other RDBMS platforms to enhance reporting accuracy and efficiency.",
+                    "Collaborated with cross-functional teams in Agile environments to implement data solutions that aligned with business objectives.",
+                    "Integrated advanced technologies, including machine learning and cloud solutions, to improve data handling and analytics capabilities.",
+                    "Mentored junior engineers, fostering a culture of knowledge sharing and continuous improvement in data practices.",
+                    "Managed a team of Data Analysts to ensure timely delivery of projects.",
+                    "Developed best practices for maintaining security standards when dealing with sensitive information.",
+                    "Gathered requirements from key stakeholders and translated them into technical specifications for BI solutions.",
+                    "Established relationships with external vendors to acquire additional datasets which enabled deeper insights into customer preferences.",
+                    "Optimized existing processes by utilizing statistical techniques such as regression analysis and clustering algorithms.",
+                    "Prepared detailed documentation about all aspects of the BI architecture to simplify maintenance operations."
+                ]
+            },
+            {
+                "company": "Benchmark Brands, Inc.",
+                "title": "Director of Business Intelligence",
+                "location": "Atlanta, GA",
+                "dates": "May 2015 - August 2016",
+                "responsibilities": [
+                    "Designed and implemented secure, scalable data warehousing solutions, enhancing data accessibility and reliability.",
+                    "Translated complex technical concepts for non-technical stakeholders to support informed decision-making.",
+                    "Promoted the adoption of advanced data modeling and analytics tools, driving business performance improvements.",
+                    "Developed complex SQL queries and data models to support comprehensive reporting and analytics.",
+                    "Developed and implemented a comprehensive Business Intelligence strategy to improve data-driven decision-making.",
+                    "Led the design, development, and deployment of advanced analytics solutions in support of business objectives."
+                ]
+            },
+            {
+                "company": "Benchmark Brands, Inc.",
+                "title": "Senior Manager, Business Intelligence",
+                "location": "Atlanta, GA",
+                "dates": "April 2012 - May 2015",
+                "responsibilities": [
+                    "Implemented a data-driven culture, increasing data utilization by 25% and improving decision-making across all business units.",
+                    "Developed a comprehensive data governance framework, achieving a 95% data accuracy rate and ensuring compliance with data privacy regulations.",
+                    "Designed and executed advanced analytics and predictive modeling techniques, improving forecasting accuracy by 15% and supporting strategic planning initiatives.",
+                    "Enhanced self-service analytics adoption by 25% through BI training programs, improving data literacy and empowering business users.",
+                    "Streamlined BI development processes, reducing project delivery time by 20% and improving responsiveness to business needs."
+                ]
+            }
+        ],
+        "education": [
+            {
+                "school": "Keller Graduate School of Management",
+                "degree": "MBA",
+                "location": "Atlanta, GA",
+                "focus": "Information Systems Management"
+            },
+            {
+                "school": "Georgia State University",
+                "degree": "BBA",
+                "location": "Atlanta, GA",
+                "focus": "Finance"
+            }
+        ],
+        "certifications": [
+            {
+                "group_name": "Completed Certifications",
+                "certifications_list": [
+                    "Certificate of Completion in Data Science - Flatiron School",
+                    "Microsoft Certified Technology Specialist in SQL Server Business Intelligence",
+                    "Microsoft Certified Professional"
+                ]
+            },
+            {
+                "group_name": "Certifications in Progress",
+                "certifications_list": [
+                    "AWS Certified Solutions Architect - Associate (Target Completion: February 2025)",
+                    "Certified Scrum Master (Target Completion: March 2025)",
+                    "Microsoft Certified: Azure Data Engineer Associate (Target Completion: March 2025)"
+                ]
+            },
+            {
+                "group_name": "Planned Certifications",
+                "certifications_list": [
+                    "Google Professional Data Engineer (Target Completion: April 2025)",
+                    "Databricks Certified Data Engineer Associate (Target Completion: June 2025)",
+                    "AWS Certified Machine Learning - Specialty (Target Completion: July 2025)"
+                ]
+            }
+        ],
+        "key_achievements": [
+            {
+                "title": "Data Fabric",
+                "description": "Spearheaded the implementation of a comprehensive data fabric solution for a Fortune 500 company, resulting in a 40% improvement in data accessibility and a 25% reduction in data management costs."
+            },
+            {
+                "title": "Data Mesh",
+                "description": "Designed and executed data mesh architecture for a global financial services firm, enabling real-time data sharing across 20+ business units and improving decision-making speed by 60%."
+            },
+            {
+                "title": "Cloud Data Lake",
+                "description": "Led the development of a cloud-based data lake for a major retailer, consolidating data from 50+ sources and enabling advanced analytics that drove a 15% increase in customer retention."
+            },
+            {
+                "title": "Predictive Maintenance",
+                "description": "Implemented a machine learning-driven predictive maintenance system for a manufacturing client, reducing equipment downtime by 30% and saving $5 million annually in maintenance costs."
+            },
+            {
+                "title": "Fraud Detection",
+                "description": "Developed a real-time fraud detection system for a fintech startup, leveraging advanced analytics and machine learning to reduce fraudulent transactions by 75% within the first six months of deployment."
+            },
+            {
+                "title": "Customer 360",
+                "description": "Led a cross-functional team in creating a customer 360 platform for a telecommunications company, integrating data from 10+ systems to provide a unified view of 50 million customers, resulting in a 20% increase in upsell opportunities."
+            },
+            {
+                "title": "Data Governance",
+                "description": "Designed and implemented a data governance framework for a healthcare provider, ensuring HIPAA compliance and improving data quality scores by 40% across critical datasets."
+            },
+            {
+                "title": "IoT Analytics",
+                "description": "Architected a scalable IoT data processing platform for a smart city initiative, handling data from 100,000+ sensors and enabling real-time analytics for traffic management, reducing average commute times by 15%."
+            },
+            {
+                "title": "NLP Solution",
+                "description": "Developed a natural language processing solution for a global media company, automating content tagging and recommendation engines, leading to a 35% increase in user engagement and content consumption."
+            },
+            {
+                "title": "Cloud Migration",
+                "description": "Led the migration of a legacy data warehouse to a modern cloud-based analytics platform for a financial services client, reducing query times by 90% and enabling self-service analytics for 5,000+ users."
+            }
+        ],
+        "projects": [
+            {
+                "title": "Data Reporting and Validation Enhancements",
+                "company": "GAF Materials Corp.",
+                "dates": "2023-Present",
+                "goal": "Streamline data reporting and validation processes by transitioning to advanced analytics platforms, ensuring data integrity and consistency across multiple systems.",
+                "responsibilities": "Managed the transition of UA reports to a structured reporting system, conducted UAT for GA4 to ensure data accuracy, developed custom reports in BigQuery, and validated data consistency across BigQuery, Google Analytics, and Amazon S3.",
+                "results": "Successfully transitioned UA reports with 95% data integrity, validated GA4 reports with 95% accuracy, developed custom reports with 98% validation success, and ensured 98% data consistency across systems to enhance reliability and decision-making."
+            },
+            {
+                "title": "Web and Mobile Analytics Enhancement",
+                "company": "Nando's",
+                "dates": "2023-Present",
+                "goal": "Enhance the understanding of user behavior across web and mobile platforms, improving engagement and optimizing marketing strategies.",
+                "responsibilities": "Analyzed session effectiveness from 'oat / qr_code' using BigQuery and TagPipes, tracked new and returning user sessions for engagement and retention insights, and evaluated web and mobile user behavior in the U.S. and Canada.",
+                "results": "Achieved a 5% conversion rate from 'oat / qr_code' traffic, improved new user engagement, identified returning users as 40% of sessions, recorded a 25% rise in app sessions, and provided insights into U.S. and Canadian web traffic trends."
+            },
+            {
+                "title": "Cloud Migration and Data Integration",
+                "company": "Rawsoft",
+                "dates": "2023-Present",
+                "goal": "Streamline data operations by migrating legacy systems to a cloud-based infrastructure, enhancing data integration and accessibility.",
+                "responsibilities": "Led legacy system migration to AWS with minimal downtime, built automated data pipelines with Python and SQL, aligned data strategies with business goals, and implemented data governance for quality, security, and compliance.",
+                "results": "Optimized cloud resources to cut costs by 25%, boosted data processing speed by 35%, improved cross-department collaboration by 20%, and reduced data errors by 30% through enhanced governance."
+            },
+            {
+                "title": "Data Optimization and Reporting Enhancements",
+                "company": "Mitchell Gold + Bob Williams",
+                "dates": "2021-2023",
+                "goal": "Improve inventory management, sales reporting, and customer data integration to enhance operational efficiency and strategic decision-making.",
+                "responsibilities": "Developed Power BI reports for sales and inventory tracking, automated profitability analysis, evaluated vendors for a unified CDP, and conducted KPI analysis to align data processes with business goals.",
+                "results": "Reduced overstocks by 15% and inventory costs by $50K annually, improved forecasting accuracy by 20%, cutting write-offs by $100K, increased sales agility by 20%, enhanced marketing efficiency by 12%, boosting LTV by 7%, and addressed 25% of reporting gaps, reducing delays by 15%."
+            },
+            {
+                "title": "Data Analytics Initiative",
+                "company": "Mitchell Gold + Bob Williams",
+                "dates": "2021",
+                "goal": "Enhance Krystal Restaurants' data infrastructure and analytics capabilities, improving operational efficiency and strategic decision-making.",
+                "responsibilities": "Designed and implemented a new data architecture, collaborated with teams to tailor data solutions, developed advanced models for sales forecasting and inventory management, integrated machine learning for predictive analytics, and enforced data integrity through governance.",
+                "results": "Optimized data processing speed by 40%, improved accuracy by 25%, reduced redundancy by 30%, enhanced user engagement by 20% with intuitive dashboards, and increased sales forecasting accuracy by 15% for better inventory management."
+            }
+        ],
+        "job_description": {
+            "companyName": "SharkNinja",
+            "title": "Director, Data Science & Analytics - Amazon",
+            "location": "USA",
+            "description": "About the job: Our purpose is to positively impact people's lives every day in every home around the world! We work very hard to provide our consumers with high-quality, exciting 5-star products that make life easier. We thrive on passion and innovation and are looking for great people, with great ideas, who want to build the next big thing and develop while they do. Job Description:We are seeking a dynamic Director, Data Science & Analytics (Amazon) to join our team. The primary responsibility is to serve as the \"Chief Amazon Marketplace Explorer, \" continuously testing to uncover breakthroughs in all cross-functional capabilities utilizing technology and data. The ideal Director, Data Science & Analytics (Amazon) has an insatiable desire to create breakthrough strategies with the experience to own our data tech stack and global reporting & analytic best practice. As such, this position will manage a team that builds and maintains our executive global data and reporting. The successful Director, Data Science & Analytics will possess a deep understanding of the Amazon ecosystem, exceptional analytical skills, and a passion for identifying new opportunities that drive business growth. This role will sit on the Amazon Leadership team and must be able to support varying data sets across finance, operations, sales and marketing among others. Key Responsibilities:Serve as the Chief Amazon Explorer, creating a learning agenda to identify, test, iterate and scale innovative strategies and opportunities on Amazon. Leverage technology and data analytics to uncover hidden insights and drive action across sales, marketing, logistics, and customer service. Assess current technology partners and solutions to maximize utilization & pressure for incremental value (AMC, Digital Shelf Tools, Revenue Recovery, Content Optimization, Catalog Management etc. )Collaborate with internal teams to implement and optimize Amazon-specific strategies based on findings. Stay updated with trends, tools, and technologies within the Amazon marketplace to ensure competitiveness. Develop and maintain reports and dashboards using tools like Tableau and Power BI to track performance metrics and present findings to senior leadership. Identify opportunities to increase process automation and integrate AI/ML into practice. Conduct market research and competitive analysis to inform strategic decisions and identify new growth opportunities. Utilize advanced data analytics, including predictive modeling, statistical analysis, data mining, and machine learning, to drive decision-making and improve Amazon marketplace strategies. Manage a team responsible for building and maintaining the company's Amazon data and reporting strategy while tackling internal projectsOversee the creation and maintenance of a Global Amazon Reporting Center of Excellence. Participate in the Amazon Leadership team, contributing to strategic decision-making and overseeing global responsibilities. Your Role within the Team:Foster a data-driven culture, leveraging data analytics for informed decision-making. Provide strategic insights from data analytics, identifying trends and opportunities to support business decisions. Develop forward-looking data strategies to create new competitive advantages. Ensure data integrity, security, and compliance with relevant regulations. Lead and mentor a team of data professionals. Duties and Responsibilities:Develop and execute the data analytics strategy to support company objectives. Drive advanced analytics initiatives, including predictive modeling, statistical analysis, data mining, and machine learning. Establish KPIs to measure business effectiveness and drive improvement. Collaborate with central teams on data collection, integration, validation, and storage. Identify and interpret trends in complex data sets. Design and maintain dashboards (Tableau / Power BI) to support information requirements. Implement data analytic tools to enhance data analytics capabilities. Ensure compliance with data privacy regulations and robust data security measures. Stay informed about advancements in data analytics, technologies, and industry best practices. Desired Skills and Experience:Proven experience (5+ years) in a leadership role overseeing data analytics functions, preferably in the CPG industry or a related field. Bachelor's or master's degree in data science, computer science, statistics, or a related field. Expertise in data analysis, statistical modeling, data mining, and machine learning techniques. Proficiency in data visualization tools (e. g. , Tableau, Power BI) and programming languages (e. g. , Python, R, SQL). Experience with big data platforms, cloud-based data analytics solutions, and data warehousing. Strong business acumen and ability to translate complex data into actionable insights. Knowledge of regulatory requirements and best practices related to data privacy and security. Excellent communication and presentation skills, with the ability to convey complex concepts to technical and non-technical stakeholders. Proven experience with Amazon Vendor & Seller Central, Digital Shelf Tools, Full Funnel Media, and Audience Marketing Cloud data sets. Analytical thinker with strong problem-solving skills. Driven, eager to learn, and a collaborative team player. Ability to adapt to a fast-paced and dynamic work environment. Experience with global responsibilities and participating in leadership teams. Join us as the Director, Data Science & Analytics (Amazon) and lead the charge in discovering new horizons within the Amazon marketplace. Apply today to be part of our dynamic team and drive transformative growth through technology and data! This role has the opportunity to work remotely. At SharkNinja, Diversity, Equity, and Inclusion are vital to our global success. Valuing each unique voice and blending all of our diverse skills strengthens SharkNinja's innovation every day. We support ALL associates in bringing their authentic selves to work, making an impact, and having the opportunity for career acceleration. With help from our leadership, associates, and our community, we aim to have equity be a key component of the SharkNinja DNA. YOUR ROLE in leading our SUCCESS DRIVERS & representing our UNIQUE MINDSETLead us to be \u201cRARELY SATISFIED\u201dMake things better each day; \u201cPROGRESS OVER PERFECTION\u201dUse your knowledge of our consumer, understand that \u201cDETAILS MAKE THE DIFFERENCE\u201dDeliver something great; \u201cWINNING IS A TEAM SPORT\u201dBe clear and honest, \u201cCOMMUNICATING FOR IMPACT\u201d Explore SharkNinja:InstagramLinkedInSharkNinja's Candidate Privacy Notice can be found here: https://www. sharkninja. com/candidate-privacy-notice/We do not discriminate on the basis of race, religion, color, national origin, sex, gender, gender expression, sexual orientation, age, marital status, veteran status, disability, or any other class protected by legislation, and local law. SharkNinja will consider reasonable accommodations consistent with legislation, and local law. If you require a reasonable accommodation to participate in the job application or interview process, please contact SharkNinja People & Culture at accommodations@sharkninja. com",
+            "requirements": ""
+        }
+    }
+}

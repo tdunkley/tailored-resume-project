@@ -1,0 +1,5 @@
+VALIDATION_RULES
+
+Global_Rules: ['Avoid duplicate verbs across all sections', 'Ensure ATS compatibility by using simple formatting', 'Prioritize relevant details per the job description']
+Sectional_Rules: ['Summary must align with key job responsibilities', 'Skills section must directly reflect job requirements']
+Cross_Sectional_Rules: ['Consistent verb usage between Experience and Projects', 'No repeated phrases in Summary and Key Achievements']

@@ -1,0 +1,108 @@
+{
+    "validation": {
+        "global_rules": {
+            "mandatory_sections": ["personal_information", "summary", "skills", "experience", "education"],
+            "no_duplicate_verbs_global": true
+        },
+        "cross_sectional_rules": {
+            "no_duplicate_verbs": {
+                "sections_to_check": ["experience", "key_achievements", "projects"],
+                "case_insensitive": true
+            },
+            "consistent_section_headers": true
+        },
+        "sectional_rules": {
+            "personal_information": {
+                "required_fields": ["name", "contact_info"],
+                "name_title_case": true,
+                "validate_email_format": true,
+                "validate_phone_format": true
+            },
+            "skills": {
+                "allow_duplicates": false,
+                "validate_skill_groups": true
+            },
+            "experience": {
+                "max_bullets_per_role": 5,
+                "require_dates": true,
+                "no_duplicate_verbs_within_section": true
+            },
+            "education": {
+                "require_degree_and_school": true
+            }
+        }
+    },
+    "paths": {
+        "base_dir": "c:/Users/troy_/Downloads/Tailored Resume Process/S3",
+        "scripts_dir": "scripts",
+        "sections_dir": "scripts/sections",
+        "s3_operations_dir": "scripts/s3_operations",
+        "output_dir": "output",
+        "resume_json": "resume_tdunkley.json"
+    },
+    "resume_schema": {
+        "type": "object",
+        "properties": {
+            "sections": {"type": "object"}
+        },
+        "required": ["sections"]
+    },
+    "formatting": {
+        "fonts": {
+            "section_header": {
+                "font": "Arial",
+                "size": 12,
+                "bold": true,
+                "color": "#000080"
+            },
+            "sub_header": {
+                "font": "Arial",
+                "size": 11,
+                "bold": true,
+                "color": "#000000"
+            },
+            "content": {
+                "font": "Arial",
+                "size": 10,
+                "bold": false,
+                "color": "#404040"
+            }
+        },
+        "spacing": {
+            "section_header": {
+                "before": 10,
+                "after": 10,
+                "line_spacing": 1.5
+            },
+            "sub_header": {
+                "before": 3,
+                "after": 3,
+                "line_spacing": 1.15
+            },
+            "content": {
+                "before": 0,
+                "after": 5,
+                "line_spacing": 1.15
+            }
+        },
+        "bullets": {
+            "type": "circle",
+            "indentation": 1
+        }
+    },
+    "logging": {
+        "log_file": "logs/bootstrap.log",
+        "log_level": "INFO"
+    },
+    "ci_cd": {
+        "enable_github_integration": true,
+        "linting_enabled": true,
+        "unit_tests_required": true
+    },
+    "validation_workflow": {
+        "detection": "Run validation on all sections to identify failures.",
+        "remediation": "Automatically fix issues based on predefined strategies.",
+        "revalidation": "Re-run validation checks after applying fixes to ensure compliance.",
+        "finalization": "Generate resume only if all rules pass validation."
+    }
+}

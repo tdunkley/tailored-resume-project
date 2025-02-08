@@ -1,0 +1,202 @@
+2025-01-31 11:19:54,085 - INFO - Bootstrap process started.
+2025-01-31 12:02:55,806 - INFO - Started tracking step: Bootstrap Initialization at 2025-01-31 12:02:55.806948
+2025-01-31 12:02:55,807 - INFO - Initializing bootstrap process...
+2025-01-31 12:02:55,807 - INFO - Path 'base_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project
+2025-01-31 12:02:55,807 - INFO - Path 'scripts_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\scripts
+2025-01-31 12:02:55,807 - INFO - Path 'sections_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\scripts\sections
+2025-01-31 12:02:55,808 - INFO - Path 's3_operations_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\scripts\s3_operations
+2025-01-31 12:02:55,808 - INFO - Path 'output_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\output
+2025-01-31 12:02:55,808 - INFO - Path 'resume_json': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\resume.json
+2025-01-31 12:02:55,808 - INFO - Started tracking step: Load Configuration at 2025-01-31 12:02:55.808361
+2025-01-31 12:02:55,808 - ERROR - Cannot log error for untracked step 'Bootstrap Error'.
+2025-01-31 12:02:55,808 - ERROR - An error occurred during the bootstrap process: [Errno 2] No such file or directory: 'config.json'
+Traceback (most recent call last):
+  File "c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\bootstrap.py", line 34, in main
+    with open(config_path, "r", encoding="utf-8") as config_file:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config.json'
+2025-02-02 15:19:58,052 - INFO - Started tracking step: Bootstrap Initialization at 2025-02-02 15:19:58.052863
+2025-02-02 15:19:58,053 - INFO - Initializing bootstrap process...
+2025-02-02 15:19:58,053 - INFO - Validating dependencies...
+2025-02-02 15:19:58,054 - ERROR - Missing files: config.json
+2025-02-02 17:56:33,141 - INFO - Started tracking step: Bootstrap Initialization at 2025-02-02 17:56:33.141610
+2025-02-02 17:56:33,141 - INFO - Initializing bootstrap process...
+2025-02-02 17:56:33,142 - INFO - Validating dependencies...
+2025-02-02 17:56:33,142 - INFO - All dependencies validated successfully.
+2025-02-02 17:56:33,142 - INFO - Path 'base_dir': C:\Users\troy_\Downloads\Tailored Resume Process\resume_project
+2025-02-02 17:56:33,142 - INFO - Path 'scripts_dir': C:\Users\troy_\Downloads\Tailored Resume Process\resume_project\scripts
+2025-02-02 17:56:33,142 - INFO - Path 'sections_dir': C:\Users\troy_\Downloads\Tailored Resume Process\resume_project\scripts\sections
+2025-02-02 17:56:33,142 - INFO - Path 's3_operations_dir': C:\Users\troy_\Downloads\Tailored Resume Process\resume_project\scripts\s3_operations
+2025-02-02 17:56:33,143 - INFO - Path 'output_dir': C:\Users\troy_\Downloads\Tailored Resume Process\resume_project\output
+2025-02-02 17:56:33,143 - INFO - Path 'resume_json': C:\Users\troy_\Downloads\Tailored Resume Process\resume_project\resume.json
+2025-02-02 17:56:33,143 - INFO - Started tracking step: Load Configuration at 2025-02-02 17:56:33.143174
+2025-02-02 17:56:33,143 - INFO - Ended tracking step: Load Configuration at 2025-02-02 17:56:33.143443 (Duration: 0:00:00.000269)
+2025-02-02 17:56:33,143 - INFO - Started tracking step: Load Resume Data at 2025-02-02 17:56:33.143550
+2025-02-02 17:56:33,155 - INFO - Ended tracking step: Load Resume Data at 2025-02-02 17:56:33.155764 (Duration: 0:00:00.012214)
+2025-02-02 17:56:33,156 - INFO - Started tracking step: Validate Global Rules at 2025-02-02 17:56:33.156005
+2025-02-02 17:56:33,156 - INFO - Ended tracking step: Validate Global Rules at 2025-02-02 17:56:33.156145 (Duration: 0:00:00.000140)
+2025-02-02 17:56:33,156 - INFO - Started tracking step: Validate Cross-Sectional Rules at 2025-02-02 17:56:33.156302
+2025-02-02 17:56:33,156 - INFO - Ended tracking step: Validate Cross-Sectional Rules at 2025-02-02 17:56:33.156429 (Duration: 0:00:00.000127)
+2025-02-02 17:56:33,156 - INFO - Started tracking step: Process Sections at 2025-02-02 17:56:33.156565
+2025-02-02 18:03:18,755 - INFO - Started tracking step: Bootstrap Initialization at 2025-02-02 18:03:18.755891
+2025-02-02 18:03:18,756 - INFO - Initializing bootstrap process...
+2025-02-02 18:03:18,756 - INFO - Validating dependencies...
+2025-02-02 18:03:18,756 - INFO - All dependencies validated successfully.
+2025-02-02 18:03:18,757 - INFO - Path 'base_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project
+2025-02-02 18:03:18,757 - INFO - Path 'scripts_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\scripts
+2025-02-02 18:03:18,757 - INFO - Path 'sections_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\scripts\sections
+2025-02-02 18:03:18,757 - INFO - Path 's3_operations_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\scripts\s3_operations
+2025-02-02 18:03:18,757 - INFO - Path 'output_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\output
+2025-02-02 18:03:18,757 - INFO - Path 'resume_json': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\resume.json
+2025-02-02 18:03:18,757 - INFO - Started tracking step: Load Configuration at 2025-02-02 18:03:18.757874
+2025-02-02 18:03:18,758 - INFO - Ended tracking step: Load Configuration at 2025-02-02 18:03:18.758346 (Duration: 0:00:00.000472)
+2025-02-02 18:03:18,758 - INFO - Started tracking step: Load Resume Data at 2025-02-02 18:03:18.758590
+2025-02-02 18:03:18,759 - INFO - Ended tracking step: Load Resume Data at 2025-02-02 18:03:18.759261 (Duration: 0:00:00.000671)
+2025-02-02 18:03:18,759 - INFO - Started tracking step: Validate Global Rules at 2025-02-02 18:03:18.759454
+2025-02-02 18:03:18,759 - INFO - Ended tracking step: Validate Global Rules at 2025-02-02 18:03:18.759703 (Duration: 0:00:00.000249)
+2025-02-02 18:03:18,759 - INFO - Started tracking step: Validate Cross-Sectional Rules at 2025-02-02 18:03:18.759930
+2025-02-02 18:03:18,760 - INFO - Ended tracking step: Validate Cross-Sectional Rules at 2025-02-02 18:03:18.760209 (Duration: 0:00:00.000279)
+2025-02-02 18:03:18,760 - INFO - Started tracking step: Process Sections at 2025-02-02 18:03:18.760418
+2025-02-02 18:04:38,580 - INFO - Started tracking step: Bootstrap Initialization at 2025-02-02 18:04:38.580733
+2025-02-02 18:04:38,581 - INFO - Initializing bootstrap process...
+2025-02-02 18:04:38,581 - INFO - Validating dependencies...
+2025-02-02 18:04:38,582 - INFO - All dependencies validated successfully.
+2025-02-02 18:04:38,582 - INFO - Path 'base_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project
+2025-02-02 18:04:38,582 - INFO - Path 'scripts_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\scripts
+2025-02-02 18:04:38,582 - INFO - Path 'sections_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\scripts\sections
+2025-02-02 18:04:38,583 - INFO - Path 's3_operations_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\scripts\s3_operations
+2025-02-02 18:04:38,583 - INFO - Path 'output_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\output
+2025-02-02 18:04:38,583 - INFO - Path 'resume_json': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\resume.json
+2025-02-02 18:04:38,583 - INFO - Started tracking step: Load Configuration at 2025-02-02 18:04:38.583829
+2025-02-02 18:04:38,584 - INFO - Ended tracking step: Load Configuration at 2025-02-02 18:04:38.584345 (Duration: 0:00:00.000516)
+2025-02-02 18:04:38,584 - INFO - Started tracking step: Load Resume Data at 2025-02-02 18:04:38.584546
+2025-02-02 18:04:38,585 - INFO - Ended tracking step: Load Resume Data at 2025-02-02 18:04:38.585039 (Duration: 0:00:00.000493)
+2025-02-02 18:04:38,585 - INFO - Started tracking step: Validate Global Rules at 2025-02-02 18:04:38.585216
+2025-02-02 18:04:38,585 - INFO - Ended tracking step: Validate Global Rules at 2025-02-02 18:04:38.585439 (Duration: 0:00:00.000223)
+2025-02-02 18:04:38,585 - INFO - Started tracking step: Validate Cross-Sectional Rules at 2025-02-02 18:04:38.585609
+2025-02-02 18:04:38,585 - INFO - Ended tracking step: Validate Cross-Sectional Rules at 2025-02-02 18:04:38.585944 (Duration: 0:00:00.000335)
+2025-02-02 18:04:38,586 - INFO - Started tracking step: Process Sections at 2025-02-02 18:04:38.586094
+2025-02-02 18:04:59,536 - INFO - Started tracking step: Bootstrap Initialization at 2025-02-02 18:04:59.536592
+2025-02-02 18:04:59,537 - INFO - Initializing bootstrap process...
+2025-02-02 18:04:59,537 - INFO - Validating dependencies...
+2025-02-02 18:04:59,537 - INFO - All dependencies validated successfully.
+2025-02-02 18:04:59,537 - INFO - Path 'base_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project
+2025-02-02 18:04:59,538 - INFO - Path 'scripts_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\scripts
+2025-02-02 18:04:59,538 - INFO - Path 'sections_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\scripts\sections
+2025-02-02 18:04:59,538 - INFO - Path 's3_operations_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\scripts\s3_operations
+2025-02-02 18:04:59,538 - INFO - Path 'output_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\output
+2025-02-02 18:04:59,538 - INFO - Path 'resume_json': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\resume.json
+2025-02-02 18:04:59,539 - INFO - Started tracking step: Load Configuration at 2025-02-02 18:04:59.539093
+2025-02-02 18:04:59,539 - INFO - Ended tracking step: Load Configuration at 2025-02-02 18:04:59.539456 (Duration: 0:00:00.000363)
+2025-02-02 18:04:59,539 - INFO - Started tracking step: Load Resume Data at 2025-02-02 18:04:59.539603
+2025-02-02 18:04:59,540 - INFO - Ended tracking step: Load Resume Data at 2025-02-02 18:04:59.540053 (Duration: 0:00:00.000450)
+2025-02-02 18:04:59,540 - INFO - Started tracking step: Validate Global Rules at 2025-02-02 18:04:59.540278
+2025-02-02 18:04:59,540 - INFO - Ended tracking step: Validate Global Rules at 2025-02-02 18:04:59.540458 (Duration: 0:00:00.000180)
+2025-02-02 18:04:59,540 - INFO - Started tracking step: Validate Cross-Sectional Rules at 2025-02-02 18:04:59.540658
+2025-02-02 18:04:59,540 - INFO - Ended tracking step: Validate Cross-Sectional Rules at 2025-02-02 18:04:59.540802 (Duration: 0:00:00.000144)
+2025-02-02 18:04:59,541 - INFO - Started tracking step: Process Sections at 2025-02-02 18:04:59.540990
+2025-02-02 18:11:09,113 - INFO - Started tracking step: Bootstrap Initialization at 2025-02-02 18:11:09.113518
+2025-02-02 18:11:09,114 - INFO - Initializing bootstrap process...
+2025-02-02 18:11:09,114 - INFO - Validating dependencies...
+2025-02-02 18:11:09,114 - INFO - All dependencies validated successfully.
+2025-02-02 18:11:09,114 - INFO - Path 'base_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project
+2025-02-02 18:11:09,115 - INFO - Path 'scripts_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\scripts
+2025-02-02 18:11:09,115 - INFO - Path 'sections_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\scripts\sections
+2025-02-02 18:11:09,115 - INFO - Path 's3_operations_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\scripts\s3_operations
+2025-02-02 18:11:09,115 - INFO - Path 'output_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\output
+2025-02-02 18:11:09,115 - INFO - Path 'resume_json': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\resume.json
+2025-02-02 18:11:09,115 - INFO - Started tracking step: Load Configuration at 2025-02-02 18:11:09.115911
+2025-02-02 18:11:09,116 - INFO - Ended tracking step: Load Configuration at 2025-02-02 18:11:09.116294 (Duration: 0:00:00.000383)
+2025-02-02 18:11:09,116 - INFO - Started tracking step: Load Resume Data at 2025-02-02 18:11:09.116480
+2025-02-02 18:11:09,117 - INFO - Ended tracking step: Load Resume Data at 2025-02-02 18:11:09.117047 (Duration: 0:00:00.000567)
+2025-02-02 18:11:09,117 - INFO - Started tracking step: Validate Global Rules at 2025-02-02 18:11:09.117243
+2025-02-02 18:11:09,117 - INFO - Ended tracking step: Validate Global Rules at 2025-02-02 18:11:09.117552 (Duration: 0:00:00.000309)
+2025-02-02 18:11:09,117 - INFO - Started tracking step: Validate Cross-Sectional Rules at 2025-02-02 18:11:09.117707
+2025-02-02 18:11:09,117 - INFO - Ended tracking step: Validate Cross-Sectional Rules at 2025-02-02 18:11:09.117910 (Duration: 0:00:00.000203)
+2025-02-02 18:11:09,118 - INFO - Started tracking step: Process Sections at 2025-02-02 18:11:09.118110
+2025-02-02 18:16:59,179 - INFO - Started tracking step: Bootstrap Initialization at 2025-02-02 18:16:59.179282
+2025-02-02 18:16:59,179 - INFO - Initializing bootstrap process...
+2025-02-02 18:16:59,180 - INFO - Validating dependencies...
+2025-02-02 18:16:59,180 - INFO - All dependencies validated successfully.
+2025-02-02 18:16:59,181 - INFO - Path 'base_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project
+2025-02-02 18:16:59,181 - INFO - Path 'scripts_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\scripts
+2025-02-02 18:16:59,181 - INFO - Path 'sections_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\scripts\sections
+2025-02-02 18:16:59,182 - INFO - Path 's3_operations_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\scripts\s3_operations
+2025-02-02 18:16:59,182 - INFO - Path 'output_dir': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\output
+2025-02-02 18:16:59,183 - INFO - Path 'resume_json': c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\resume.json
+2025-02-02 18:16:59,183 - INFO - Started tracking step: Load Configuration at 2025-02-02 18:16:59.183246
+2025-02-02 18:16:59,183 - INFO - Ended tracking step: Load Configuration at 2025-02-02 18:16:59.183840 (Duration: 0:00:00.000594)
+2025-02-02 18:16:59,184 - INFO - Started tracking step: Load Resume Data at 2025-02-02 18:16:59.184076
+2025-02-02 18:16:59,184 - INFO - Ended tracking step: Load Resume Data at 2025-02-02 18:16:59.184751 (Duration: 0:00:00.000675)
+2025-02-02 18:16:59,185 - INFO - Started tracking step: Validate Global Rules at 2025-02-02 18:16:59.185082
+2025-02-02 18:16:59,185 - INFO - Ended tracking step: Validate Global Rules at 2025-02-02 18:16:59.185508 (Duration: 0:00:00.000426)
+2025-02-02 18:16:59,185 - INFO - Started tracking step: Validate Cross-Sectional Rules at 2025-02-02 18:16:59.185830
+2025-02-02 18:16:59,186 - INFO - Ended tracking step: Validate Cross-Sectional Rules at 2025-02-02 18:16:59.186211 (Duration: 0:00:00.000381)
+2025-02-02 18:16:59,186 - INFO - Started tracking step: Process Sections at 2025-02-02 18:16:59.186532
+2025-02-02 18:16:59,186 - INFO - Started tracking step: personal_information at 2025-02-02 18:16:59.186795
+2025-02-02 18:16:59,187 - INFO - Started tracking section: personal_information
+2025-02-02 18:16:59,187 - INFO - Processing section: personal_information...
+2025-02-02 18:16:59,187 - INFO - Validating section: personal_information...
+2025-02-02 18:16:59,187 - INFO - Formatting section: personal_information...
+2025-02-02 18:16:59,188 - INFO - Section 'personal_information' written to c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\output\personal_information.txt successfully.
+2025-02-02 18:16:59,189 - INFO - Ended tracking step: personal_information at 2025-02-02 18:16:59.189058 (Duration: 0:00:00.002263)
+2025-02-02 18:16:59,189 - INFO - Section 'personal_information' processed successfully.
+2025-02-02 18:16:59,189 - INFO - Started tracking step: summary at 2025-02-02 18:16:59.189535
+2025-02-02 18:16:59,189 - INFO - Started tracking section: summary
+2025-02-02 18:16:59,189 - INFO - Processing section: summary...
+2025-02-02 18:16:59,190 - INFO - Validating section: summary...
+2025-02-02 18:16:59,190 - INFO - Formatting section: summary...
+2025-02-02 18:16:59,191 - INFO - Section 'summary' written to c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\output\summary.txt successfully.
+2025-02-02 18:16:59,191 - INFO - Ended tracking step: summary at 2025-02-02 18:16:59.191806 (Duration: 0:00:00.002271)
+2025-02-02 18:16:59,192 - INFO - Section 'summary' processed successfully.
+2025-02-02 18:16:59,192 - INFO - Started tracking step: skills at 2025-02-02 18:16:59.192624
+2025-02-02 18:16:59,192 - INFO - Started tracking section: skills
+2025-02-02 18:16:59,193 - INFO - Processing section: skills...
+2025-02-02 18:16:59,193 - INFO - Validating section: skills...
+2025-02-02 18:16:59,193 - INFO - Formatting section: skills...
+2025-02-02 18:16:59,194 - INFO - Section 'skills' written to c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\output\skills.txt successfully.
+2025-02-02 18:16:59,194 - INFO - Ended tracking step: skills at 2025-02-02 18:16:59.194828 (Duration: 0:00:00.002204)
+2025-02-02 18:16:59,195 - INFO - Section 'skills' processed successfully.
+2025-02-02 18:16:59,195 - INFO - Started tracking step: experience at 2025-02-02 18:16:59.195793
+2025-02-02 18:16:59,196 - INFO - Started tracking section: experience
+2025-02-02 18:16:59,196 - INFO - Processing section: experience...
+2025-02-02 18:16:59,196 - INFO - Validating section: experience...
+2025-02-02 18:16:59,197 - INFO - Formatting section: experience...
+2025-02-02 18:16:59,198 - INFO - Section 'experience' written to c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\output\experience.txt successfully.
+2025-02-02 18:16:59,198 - INFO - Ended tracking step: experience at 2025-02-02 18:16:59.198843 (Duration: 0:00:00.003050)
+2025-02-02 18:16:59,199 - INFO - Section 'experience' processed successfully.
+2025-02-02 18:16:59,199 - INFO - Started tracking step: education at 2025-02-02 18:16:59.199311
+2025-02-02 18:16:59,199 - INFO - Started tracking section: education
+2025-02-02 18:16:59,199 - INFO - Processing section: education...
+2025-02-02 18:16:59,200 - INFO - Validating section: education...
+2025-02-02 18:16:59,200 - INFO - Formatting section: education...
+2025-02-02 18:16:59,201 - INFO - Section 'education' written to c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\output\education.txt successfully.
+2025-02-02 18:16:59,202 - INFO - Ended tracking step: education at 2025-02-02 18:16:59.202180 (Duration: 0:00:00.002869)
+2025-02-02 18:16:59,202 - INFO - Section 'education' processed successfully.
+2025-02-02 18:16:59,202 - INFO - Started tracking step: key_achievements at 2025-02-02 18:16:59.202689
+2025-02-02 18:16:59,202 - INFO - Started tracking section: key_achievements
+2025-02-02 18:16:59,203 - INFO - Processing section: key_achievements...
+2025-02-02 18:16:59,203 - INFO - Validating section: key_achievements...
+2025-02-02 18:16:59,203 - INFO - Formatting section: key_achievements...
+2025-02-02 18:16:59,204 - INFO - Section 'key_achievements' written to c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\output\key_achievements.txt successfully.
+2025-02-02 18:16:59,204 - INFO - Ended tracking step: key_achievements at 2025-02-02 18:16:59.204733 (Duration: 0:00:00.002044)
+2025-02-02 18:16:59,205 - INFO - Section 'key_achievements' processed successfully.
+2025-02-02 18:16:59,205 - INFO - Started tracking step: projects at 2025-02-02 18:16:59.205845
+2025-02-02 18:16:59,206 - INFO - Started tracking section: projects
+2025-02-02 18:16:59,206 - INFO - Processing section: projects...
+2025-02-02 18:16:59,206 - INFO - Validating section: projects...
+2025-02-02 18:16:59,206 - INFO - Formatting section: projects...
+2025-02-02 18:16:59,207 - INFO - Section 'projects' written to c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\output\projects.txt successfully.
+2025-02-02 18:16:59,208 - INFO - Ended tracking step: projects at 2025-02-02 18:16:59.208049 (Duration: 0:00:00.002204)
+2025-02-02 18:16:59,208 - INFO - Section 'projects' processed successfully.
+2025-02-02 18:16:59,208 - INFO - Started tracking step: validation_rules at 2025-02-02 18:16:59.208492
+2025-02-02 18:16:59,208 - INFO - Started tracking section: validation_rules
+2025-02-02 18:16:59,209 - INFO - Processing section: validation_rules...
+2025-02-02 18:16:59,209 - INFO - Validating section: validation_rules...
+2025-02-02 18:16:59,209 - INFO - Formatting section: validation_rules...
+2025-02-02 18:16:59,211 - INFO - Section 'validation_rules' written to c:\Users\troy_\Downloads\Tailored Resume Process\resume_project\output\validation_rules.txt successfully.
+2025-02-02 18:16:59,211 - INFO - Ended tracking step: validation_rules at 2025-02-02 18:16:59.211286 (Duration: 0:00:00.002794)
+2025-02-02 18:16:59,212 - INFO - Section 'validation_rules' processed successfully.
+2025-02-02 18:16:59,212 - INFO - Ended tracking step: Process Sections at 2025-02-02 18:16:59.212288 (Duration: 0:00:00.025756)
+2025-02-02 18:16:59,212 - INFO - Ended tracking step: Bootstrap Initialization at 2025-02-02 18:16:59.212552 (Duration: 0:00:00.033270)
+2025-02-02 18:16:59,212 - INFO - Bootstrap process completed successfully.

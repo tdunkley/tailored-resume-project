@@ -1,0 +1,7 @@
+PERSONAL_INFORMATION
+
+Name: Troy D. Dunkley
+Desired_Role: Senior Data Architect
+Contact_Info: {'phone': '+1-770-401-6527', 'email': 'tdunkley@gmail.com', 'location': 'Atlanta, GA', 'linkedin': 'https://www.linkedin.com/in/troy-d-dunkley'}
+Rules: {'global': ['Ensure name and contact info appear on every page', 'LinkedIn should be a hyperlink', 'Adhere to ATS-friendly formatting', 'Capitalize the name']}
+Formatting: {'name': {'font_size': 14, 'font_style': 'bold', 'capitalization': 'uppercase'}, 'desired_role': {'font_size': 12, 'font_style': 'italic', 'capitalization': 'title_case'}, 'contact_info': {'font_size': 11, 'font_style': 'regular', 'line_spacing': {'before': 4, 'after': 4}}}

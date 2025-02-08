@@ -1,0 +1,290 @@
+2025-02-06 12:25:38,610 - INFO - Section: Bootstrap Initialization | Status: START | Message: Initializing bootstrap process...
+2025-02-06 12:25:38,610 - INFO - Validating dependencies...
+2025-02-06 12:25:38,611 - ERROR - Missing files: scripts/tracker.py, scripts/section_processor.py, scripts/validation_engine.py, scripts/config_core.py
+2025-02-06 12:33:15,968 - INFO - Section: Bootstrap Initialization | Status: START | Message: Initializing bootstrap process...
+2025-02-06 12:33:15,968 - INFO - Validating dependencies...
+2025-02-06 12:33:15,969 - INFO - All dependencies validated successfully.
+2025-02-06 12:33:15,977 - INFO - Path 'base_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3
+2025-02-06 12:33:15,977 - INFO - Path 'scripts_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3\scripts
+2025-02-06 12:33:15,978 - INFO - Path 'sections_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3\scripts\sections
+2025-02-06 12:33:15,978 - INFO - Path 's3_operations_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3\scripts\s3_operations
+2025-02-06 12:33:15,978 - INFO - Path 'output_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3\output
+2025-02-06 12:33:15,978 - INFO - Path 'resume_json': c:\Users\troy_\Downloads\Tailored Resume Process\S3\resume.json
+2025-02-06 12:33:15,992 - INFO - Data loaded successfully from c:\Users\troy_\Downloads\Tailored Resume Process\S3\config.json.
+2025-02-06 12:33:16,574 - INFO - Extracting data from resume: path/to/your/resume.docx
+2025-02-06 12:33:16,575 - ERROR - Error extracting resume data: Package not found at 'path/to/your/resume.docx'
+Traceback (most recent call last):
+  File "c:\Users\troy_\Downloads\Tailored Resume Process\S3\bootstrap.py", line 96, in main
+    resume_data = extract_resume_data(doc_path)
+  File "c:\Users\troy_\Downloads\Tailored Resume Process\S3\resume_parser.py", line 7, in extract_resume_data
+    document = Document(doc_path)
+  File "C:\Users\troy_\AppData\Local\Programs\Python\Python313\Lib\site-packages\docx\api.py", line 27, in Document
+    document_part = cast("DocumentPart", Package.open(docx).main_document_part)
+                                         ~~~~~~~~~~~~^^^^^^
+  File "C:\Users\troy_\AppData\Local\Programs\Python\Python313\Lib\site-packages\docx\opc\package.py", line 127, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+  File "C:\Users\troy_\AppData\Local\Programs\Python\Python313\Lib\site-packages\docx\opc\pkgreader.py", line 22, in from_file
+    phys_reader = PhysPkgReader(pkg_file)
+  File "C:\Users\troy_\AppData\Local\Programs\Python\Python313\Lib\site-packages\docx\opc\phys_pkg.py", line 21, in __new__
+    raise PackageNotFoundError("Package not found at '%s'" % pkg_file)
+docx.opc.exceptions.PackageNotFoundError: Package not found at 'path/to/your/resume.docx'
+2025-02-06 12:33:16,594 - INFO - Data loaded successfully from c:\Users\troy_\Downloads\Tailored Resume Process\S3\resume.json.
+2025-02-06 12:33:16,595 - INFO - JSON schema validation passed.
+2025-02-06 12:33:16,596 - INFO - Processing Huntr CSV file: c:\Users\troy_\Downloads\Tailored Resume Process\S3\huntr_job_applications.csv
+2025-02-06 12:33:16,600 - INFO - Huntr job descriptions saved to huntr_job_descriptions.json
+2025-02-06 12:33:16,601 - INFO - Listing files in S3 bucket: resume-tailoring-storage with prefix: input/resumes/
+2025-02-06 12:33:16,701 - ERROR - Section: File Processing Error | Status: ERROR | Message: An error occurred: Expecting value: line 1 column 1 (char 0)
+2025-02-06 12:33:16,702 - ERROR - An error occurred during file processing: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "c:\Users\troy_\Downloads\Tailored Resume Process\S3\bootstrap.py", line 68, in process_file
+    resume_data = download_from_s3(file_key)
+  File "c:\Users\troy_\Downloads\Tailored Resume Process\S3\s3_manager.py", line 16, in download_from_s3
+    return json.loads(response['Body'].read())
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\troy_\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\troy_\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\troy_\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-02-06 12:33:16,723 - INFO - Files processed successfully in parallel.
+2025-02-06 12:33:16,723 - INFO - Section: Bootstrap Initialization | Status: END | Message: Bootstrap process completed successfully.
+2025-02-06 12:44:03,853 - INFO - Section: Bootstrap Initialization | Status: START | Message: Initializing bootstrap process...
+2025-02-06 12:44:03,854 - INFO - Validating dependencies...
+2025-02-06 12:44:03,854 - INFO - All dependencies validated successfully.
+2025-02-06 12:44:03,854 - INFO - Path 'base_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3
+2025-02-06 12:44:03,855 - INFO - Path 'scripts_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3\scripts
+2025-02-06 12:44:03,855 - INFO - Path 'sections_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3\scripts\sections
+2025-02-06 12:44:03,855 - INFO - Path 's3_operations_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3\scripts\s3_operations
+2025-02-06 12:44:03,855 - INFO - Path 'output_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3\output
+2025-02-06 12:44:03,855 - INFO - Path 'resume_json': c:\Users\troy_\Downloads\Tailored Resume Process\S3\resume.json
+2025-02-06 12:44:03,855 - INFO - Data loaded successfully from c:\Users\troy_\Downloads\Tailored Resume Process\S3\config.json.
+2025-02-06 12:44:04,454 - INFO - Extracting data from resume: c:/Users/troy_/Downloads/Tailored Resume Process/S3/your_resume.docx
+2025-02-06 12:44:04,454 - ERROR - Error extracting resume data: Package not found at 'c:/Users/troy_/Downloads/Tailored Resume Process/S3/your_resume.docx'
+Traceback (most recent call last):
+  File "c:\Users\troy_\Downloads\Tailored Resume Process\S3\bootstrap.py", line 98, in main
+    resume_data = extract_resume_data(doc_path)
+  File "c:\Users\troy_\Downloads\Tailored Resume Process\S3\scripts\resume_parser.py", line 7, in extract_resume_data
+    document = Document(doc_path)
+  File "C:\Users\troy_\AppData\Local\Programs\Python\Python313\Lib\site-packages\docx\api.py", line 27, in Document
+    document_part = cast("DocumentPart", Package.open(docx).main_document_part)
+                                         ~~~~~~~~~~~~^^^^^^
+  File "C:\Users\troy_\AppData\Local\Programs\Python\Python313\Lib\site-packages\docx\opc\package.py", line 127, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+  File "C:\Users\troy_\AppData\Local\Programs\Python\Python313\Lib\site-packages\docx\opc\pkgreader.py", line 22, in from_file
+    phys_reader = PhysPkgReader(pkg_file)
+  File "C:\Users\troy_\AppData\Local\Programs\Python\Python313\Lib\site-packages\docx\opc\phys_pkg.py", line 21, in __new__
+    raise PackageNotFoundError("Package not found at '%s'" % pkg_file)
+docx.opc.exceptions.PackageNotFoundError: Package not found at 'c:/Users/troy_/Downloads/Tailored Resume Process/S3/your_resume.docx'
+2025-02-06 12:44:04,458 - INFO - Data loaded successfully from c:\Users\troy_\Downloads\Tailored Resume Process\S3\resume.json.
+2025-02-06 12:44:04,458 - INFO - JSON schema validation passed.
+2025-02-06 12:44:04,459 - INFO - Processing Huntr CSV file: c:\Users\troy_\Downloads\Tailored Resume Process\S3\huntr_job_applications.csv
+2025-02-06 12:44:04,463 - INFO - Huntr job descriptions saved to huntr_job_descriptions.json
+2025-02-06 12:44:04,463 - INFO - Listing files in S3 bucket: resume-tailoring-storage with prefix: input/resumes/
+2025-02-06 12:44:04,581 - ERROR - Section: File Processing Error | Status: ERROR | Message: An error occurred: Expecting value: line 1 column 1 (char 0)
+2025-02-06 12:44:04,581 - ERROR - An error occurred during file processing: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "c:\Users\troy_\Downloads\Tailored Resume Process\S3\bootstrap.py", line 68, in process_file
+    resume_data = download_from_s3(file_key)
+  File "c:\Users\troy_\Downloads\Tailored Resume Process\S3\scripts\s3_manager.py", line 16, in download_from_s3
+    return json.loads(response['Body'].read())
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\troy_\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\troy_\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\troy_\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-02-06 12:44:04,584 - INFO - Files processed successfully in parallel.
+2025-02-06 12:44:04,585 - INFO - Section: Bootstrap Initialization | Status: END | Message: Bootstrap process completed successfully.
+2025-02-06 12:46:03,076 - INFO - Section: Bootstrap Initialization | Status: START | Message: Initializing bootstrap process...
+2025-02-06 12:46:03,076 - INFO - Validating dependencies...
+2025-02-06 12:46:03,076 - INFO - All dependencies validated successfully.
+2025-02-06 12:46:03,077 - INFO - Path 'base_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3
+2025-02-06 12:46:03,077 - INFO - Path 'scripts_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3\scripts
+2025-02-06 12:46:03,077 - INFO - Path 'sections_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3\scripts\sections
+2025-02-06 12:46:03,077 - INFO - Path 's3_operations_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3\scripts\s3_operations
+2025-02-06 12:46:03,078 - INFO - Path 'output_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3\output
+2025-02-06 12:46:03,078 - INFO - Path 'resume_json': c:\Users\troy_\Downloads\Tailored Resume Process\S3\resume.json
+2025-02-06 12:46:03,079 - INFO - Data loaded successfully from c:\Users\troy_\Downloads\Tailored Resume Process\S3\config.json.
+2025-02-06 12:46:03,623 - INFO - Extracting data from resume: c:/Users/troy_/Downloads/Tailored Resume Process/S3/full_cv.docx
+2025-02-06 12:46:03,648 - INFO - Resume data extracted and saved to c:\Users\troy_\Downloads\Tailored Resume Process\S3\resume.json
+2025-02-06 12:46:03,655 - INFO - Data loaded successfully from c:\Users\troy_\Downloads\Tailored Resume Process\S3\resume.json.
+2025-02-06 12:46:03,657 - INFO - JSON schema validation passed.
+2025-02-06 12:46:03,657 - INFO - Processing Huntr CSV file: c:\Users\troy_\Downloads\Tailored Resume Process\S3\huntr_job_applications.csv
+2025-02-06 12:46:03,662 - INFO - Huntr job descriptions saved to huntr_job_descriptions.json
+2025-02-06 12:46:03,662 - INFO - Listing files in S3 bucket: resume-tailoring-storage with prefix: input/resumes/
+2025-02-06 12:46:03,763 - ERROR - Section: File Processing Error | Status: ERROR | Message: An error occurred: Expecting value: line 1 column 1 (char 0)
+2025-02-06 12:46:03,764 - ERROR - An error occurred during file processing: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "c:\Users\troy_\Downloads\Tailored Resume Process\S3\bootstrap.py", line 68, in process_file
+    resume_data = download_from_s3(file_key)
+  File "c:\Users\troy_\Downloads\Tailored Resume Process\S3\scripts\s3_manager.py", line 16, in download_from_s3
+    return json.loads(response['Body'].read())
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\troy_\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\troy_\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\troy_\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-02-06 12:46:03,770 - INFO - Files processed successfully in parallel.
+2025-02-06 12:46:03,770 - INFO - Section: Bootstrap Initialization | Status: END | Message: Bootstrap process completed successfully.
+2025-02-06 12:47:08,445 - INFO - Section: Bootstrap Initialization | Status: START | Message: Initializing bootstrap process...
+2025-02-06 12:47:08,446 - INFO - Validating dependencies...
+2025-02-06 12:47:08,446 - INFO - All dependencies validated successfully.
+2025-02-06 12:47:08,447 - INFO - Path 'base_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3
+2025-02-06 12:47:08,447 - INFO - Path 'scripts_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3\scripts
+2025-02-06 12:47:08,447 - INFO - Path 'sections_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3\scripts\sections
+2025-02-06 12:47:08,447 - INFO - Path 's3_operations_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3\scripts\s3_operations
+2025-02-06 12:47:08,448 - INFO - Path 'output_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3\output
+2025-02-06 12:47:08,448 - INFO - Path 'resume_json': c:\Users\troy_\Downloads\Tailored Resume Process\S3\resume.json
+2025-02-06 12:47:08,449 - INFO - Data loaded successfully from c:\Users\troy_\Downloads\Tailored Resume Process\S3\config.json.
+2025-02-06 12:47:09,015 - INFO - Extracting data from resume: c:/Users/troy_/Downloads/Tailored Resume Process/S3/full_cv.docx
+2025-02-06 12:47:09,042 - INFO - Resume data extracted and saved to c:\Users\troy_\Downloads\Tailored Resume Process\S3\resume.json
+2025-02-06 12:47:09,043 - INFO - Data loaded successfully from c:\Users\troy_\Downloads\Tailored Resume Process\S3\resume.json.
+2025-02-06 12:47:09,044 - INFO - JSON schema validation passed.
+2025-02-06 12:47:09,044 - INFO - Processing Huntr CSV file: c:\Users\troy_\Downloads\Tailored Resume Process\S3\huntr_job_applications.csv
+2025-02-06 12:47:09,049 - INFO - Huntr job descriptions saved to huntr_job_descriptions.json
+2025-02-06 12:47:09,050 - INFO - Listing files in S3 bucket: resume-tailoring-storage with prefix: input/resumes/
+2025-02-06 12:47:09,158 - ERROR - Section: File Processing Error | Status: ERROR | Message: An error occurred: Expecting value: line 1 column 1 (char 0)
+2025-02-06 12:47:09,159 - ERROR - An error occurred during file processing: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "c:\Users\troy_\Downloads\Tailored Resume Process\S3\bootstrap.py", line 68, in process_file
+    resume_data = download_from_s3(file_key)
+  File "c:\Users\troy_\Downloads\Tailored Resume Process\S3\scripts\s3_manager.py", line 16, in download_from_s3
+    return json.loads(response['Body'].read())
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\troy_\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\troy_\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\troy_\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-02-06 12:47:09,164 - INFO - Files processed successfully in parallel.
+2025-02-06 12:47:09,164 - INFO - Section: Bootstrap Initialization | Status: END | Message: Bootstrap process completed successfully.
+2025-02-06 12:48:15,068 - INFO - Section: Bootstrap Initialization | Status: START | Message: Initializing bootstrap process...
+2025-02-06 12:48:15,069 - INFO - Validating dependencies...
+2025-02-06 12:48:15,069 - INFO - All dependencies validated successfully.
+2025-02-06 12:48:15,070 - INFO - Path 'base_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3
+2025-02-06 12:48:15,070 - INFO - Path 'scripts_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3\scripts
+2025-02-06 12:48:15,070 - INFO - Path 'sections_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3\scripts\sections
+2025-02-06 12:48:15,070 - INFO - Path 's3_operations_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3\scripts\s3_operations
+2025-02-06 12:48:15,070 - INFO - Path 'output_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3\output
+2025-02-06 12:48:15,071 - INFO - Path 'resume_json': c:\Users\troy_\Downloads\Tailored Resume Process\S3\resume.json
+2025-02-06 12:48:15,072 - INFO - Data loaded successfully from c:\Users\troy_\Downloads\Tailored Resume Process\S3\config.json.
+2025-02-06 12:48:15,650 - INFO - Extracting data from resume: c:/Users/troy_/Downloads/Tailored Resume Process/S3/full_cv.docx
+2025-02-06 12:48:15,676 - INFO - Resume data extracted and saved to c:\Users\troy_\Downloads\Tailored Resume Process\S3\resume.json
+2025-02-06 12:48:15,677 - INFO - Data loaded successfully from c:\Users\troy_\Downloads\Tailored Resume Process\S3\resume.json.
+2025-02-06 12:48:15,679 - INFO - JSON schema validation passed.
+2025-02-06 12:48:15,679 - INFO - Processing Huntr CSV file: c:\Users\troy_\Downloads\Tailored Resume Process\S3\huntr_job_applications.csv
+2025-02-06 12:48:15,682 - INFO - Huntr job descriptions saved to huntr_job_descriptions.json
+2025-02-06 12:48:15,683 - INFO - Listing files in S3 bucket: resume-tailoring-storage with prefix: input/resumes/
+2025-02-06 12:48:15,786 - ERROR - Section: File Processing Error | Status: ERROR | Message: An error occurred: Expecting value: line 1 column 1 (char 0)
+2025-02-06 12:48:15,787 - ERROR - An error occurred during file processing: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "c:\Users\troy_\Downloads\Tailored Resume Process\S3\bootstrap.py", line 68, in process_file
+    resume_data = download_from_s3(file_key)
+  File "c:\Users\troy_\Downloads\Tailored Resume Process\S3\scripts\s3_manager.py", line 16, in download_from_s3
+    return json.loads(response['Body'].read())
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\troy_\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\troy_\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\troy_\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-02-06 12:48:15,791 - INFO - Files processed successfully in parallel.
+2025-02-06 12:48:15,792 - INFO - Section: Bootstrap Initialization | Status: END | Message: Bootstrap process completed successfully.
+2025-02-06 12:49:19,917 - INFO - Section: Bootstrap Initialization | Status: START | Message: Initializing bootstrap process...
+2025-02-06 12:49:19,918 - INFO - Validating dependencies...
+2025-02-06 12:49:19,918 - INFO - All dependencies validated successfully.
+2025-02-06 12:49:19,918 - INFO - Path 'base_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3
+2025-02-06 12:49:19,918 - INFO - Path 'scripts_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3\scripts
+2025-02-06 12:49:19,919 - INFO - Path 'sections_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3\scripts\sections
+2025-02-06 12:49:19,919 - INFO - Path 's3_operations_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3\scripts\s3_operations
+2025-02-06 12:49:19,919 - INFO - Path 'output_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3\output
+2025-02-06 12:49:19,919 - INFO - Path 'resume_json': c:\Users\troy_\Downloads\Tailored Resume Process\S3\resume.json
+2025-02-06 12:49:19,919 - INFO - Data loaded successfully from c:\Users\troy_\Downloads\Tailored Resume Process\S3\config.json.
+2025-02-06 12:49:20,515 - INFO - Extracting data from resume: c:/Users/troy_/Downloads/Tailored Resume Process/S3/full_cv.docx
+2025-02-06 12:49:20,539 - INFO - Resume data extracted and saved to c:\Users\troy_\Downloads\Tailored Resume Process\S3\resume.json
+2025-02-06 12:49:20,541 - INFO - Data loaded successfully from c:\Users\troy_\Downloads\Tailored Resume Process\S3\resume.json.
+2025-02-06 12:49:20,543 - INFO - JSON schema validation passed.
+2025-02-06 12:49:20,543 - INFO - Processing Huntr CSV file: c:\Users\troy_\Downloads\Tailored Resume Process\S3\huntr_job_applications.csv
+2025-02-06 12:49:20,548 - INFO - Huntr job descriptions saved to huntr_job_descriptions.json
+2025-02-06 12:49:20,548 - INFO - Listing files in S3 bucket: resume-tailoring-storage with prefix: input/resumes/
+2025-02-06 12:49:20,653 - ERROR - Section: File Processing Error | Status: ERROR | Message: An error occurred: Downloaded file input/resumes/ is empty.
+2025-02-06 12:49:20,654 - ERROR - An error occurred during file processing: Downloaded file input/resumes/ is empty.
+Traceback (most recent call last):
+  File "c:\Users\troy_\Downloads\Tailored Resume Process\S3\bootstrap.py", line 68, in process_file
+    resume_data = download_from_s3(file_key)
+  File "c:\Users\troy_\Downloads\Tailored Resume Process\S3\scripts\s3_manager.py", line 18, in download_from_s3
+    raise ValueError(f"Downloaded file {filename} is empty.")
+ValueError: Downloaded file input/resumes/ is empty.
+2025-02-06 12:49:20,655 - INFO - Files processed successfully in parallel.
+2025-02-06 12:49:20,656 - INFO - Section: Bootstrap Initialization | Status: END | Message: Bootstrap process completed successfully.
+2025-02-06 12:53:26,395 - INFO - Section: Bootstrap Initialization | Status: START | Message: Initializing bootstrap process...
+2025-02-06 12:53:26,395 - INFO - Validating dependencies...
+2025-02-06 12:53:26,395 - INFO - All dependencies validated successfully.
+2025-02-06 12:53:26,396 - INFO - Path 'base_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3
+2025-02-06 12:53:26,396 - INFO - Path 'scripts_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3\scripts
+2025-02-06 12:53:26,396 - INFO - Path 'sections_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3\scripts\sections
+2025-02-06 12:53:26,396 - INFO - Path 's3_operations_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3\scripts\s3_operations
+2025-02-06 12:53:26,396 - INFO - Path 'output_dir': c:\Users\troy_\Downloads\Tailored Resume Process\S3\output
+2025-02-06 12:53:26,396 - INFO - Path 'resume_json': c:\Users\troy_\Downloads\Tailored Resume Process\S3\resume.json
+2025-02-06 12:53:26,397 - INFO - Data loaded successfully from c:\Users\troy_\Downloads\Tailored Resume Process\S3\config.json.
+2025-02-06 12:53:26,953 - INFO - Extracting data from resume: c:/Users/troy_/Downloads/Tailored Resume Process/S3/full_cv.docx
+2025-02-06 12:53:26,953 - ERROR - Error extracting resume data: Package not found at 'c:/Users/troy_/Downloads/Tailored Resume Process/S3/full_cv.docx'
+Traceback (most recent call last):
+  File "c:\Users\troy_\Downloads\Tailored Resume Process\S3\bootstrap.py", line 98, in main
+    resume_data = extract_resume_data(doc_path)
+  File "c:\Users\troy_\Downloads\Tailored Resume Process\S3\scripts\resume_parser.py", line 7, in extract_resume_data
+    document = Document(doc_path)
+  File "C:\Users\troy_\AppData\Local\Programs\Python\Python313\Lib\site-packages\docx\api.py", line 27, in Document
+    document_part = cast("DocumentPart", Package.open(docx).main_document_part)
+                                         ~~~~~~~~~~~~^^^^^^
+  File "C:\Users\troy_\AppData\Local\Programs\Python\Python313\Lib\site-packages\docx\opc\package.py", line 127, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+  File "C:\Users\troy_\AppData\Local\Programs\Python\Python313\Lib\site-packages\docx\opc\pkgreader.py", line 22, in from_file
+    phys_reader = PhysPkgReader(pkg_file)
+  File "C:\Users\troy_\AppData\Local\Programs\Python\Python313\Lib\site-packages\docx\opc\phys_pkg.py", line 21, in __new__
+    raise PackageNotFoundError("Package not found at '%s'" % pkg_file)
+docx.opc.exceptions.PackageNotFoundError: Package not found at 'c:/Users/troy_/Downloads/Tailored Resume Process/S3/full_cv.docx'
+2025-02-06 12:53:26,957 - INFO - Data loaded successfully from c:\Users\troy_\Downloads\Tailored Resume Process\S3\resume.json.
+2025-02-06 12:53:26,958 - INFO - JSON schema validation passed.
+2025-02-06 12:53:26,959 - INFO - Processing Huntr CSV file: c:\Users\troy_\Downloads\Tailored Resume Process\S3\huntr_job_applications.csv
+2025-02-06 12:53:26,963 - INFO - Huntr job descriptions saved to huntr_job_descriptions.json
+2025-02-06 12:53:26,963 - INFO - Listing files in S3 bucket: resume-tailoring-storage with prefix: input/resumes/
+2025-02-06 12:53:27,074 - ERROR - Section: File Processing Error | Status: ERROR | Message: An error occurred: Downloaded file input/resumes/ is empty.
+2025-02-06 12:53:27,075 - ERROR - An error occurred during file processing: Downloaded file input/resumes/ is empty.
+Traceback (most recent call last):
+  File "c:\Users\troy_\Downloads\Tailored Resume Process\S3\bootstrap.py", line 68, in process_file
+    resume_data = download_from_s3(file_key)
+  File "c:\Users\troy_\Downloads\Tailored Resume Process\S3\scripts\s3_manager.py", line 18, in download_from_s3
+    raise ValueError(f"Downloaded file {filename} is empty.")
+ValueError: Downloaded file input/resumes/ is empty.
+2025-02-06 12:53:27,508 - ERROR - Section: File Processing Error | Status: ERROR | Message: An error occurred: 'utf-8' codec can't decode byte 0xa1 in position 14: invalid start byte
+2025-02-06 12:53:27,509 - ERROR - An error occurred during file processing: 'utf-8' codec can't decode byte 0xa1 in position 14: invalid start byte
+Traceback (most recent call last):
+  File "c:\Users\troy_\Downloads\Tailored Resume Process\S3\bootstrap.py", line 68, in process_file
+    resume_data = download_from_s3(file_key)
+  File "c:\Users\troy_\Downloads\Tailored Resume Process\S3\scripts\s3_manager.py", line 16, in download_from_s3
+    content = response['Body'].read().decode('utf-8')
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa1 in position 14: invalid start byte
+2025-02-06 12:53:27,510 - INFO - Files processed successfully in parallel.
+2025-02-06 12:53:27,511 - INFO - Section: Bootstrap Initialization | Status: END | Message: Bootstrap process completed successfully.
