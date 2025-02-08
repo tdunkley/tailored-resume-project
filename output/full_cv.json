@@ -1,0 +1,199 @@
+{
+    "sections": {
+        "summary": [
+            "Visionary Data and Business Intelligence Technology Leader with over 15 years of experience driving business transformation through innovative data strategies and comprehensive solutions. Proven track record of implementing cutting-edge technologies, including data fabric, data mesh, and cloud-based analytics platforms, significantly improved operational efficiency and data-driven decision-making. Demonstrated success in reducing costs, improving data quality, and accelerating time-to-insight across various industries, including retail, finance, and healthcare. Committed to staying at the forefront of emerging technologies and industry best practices to deliver transformative results."
+        ],
+        "skills": [],
+        "data_management_and_analytics": [],
+        "technical_proficiencies": [],
+        "enterprise_systems": [],
+        "infrastructure_and_security": [],
+        "emerging_technologies": [],
+        "leadership_and_strategy": [],
+        "business_acumen": [],
+        "industry_knowledge": [],
+        "experience": [
+            {
+                "company": "CEO",
+                "location": "Data Evangelist",
+                "dates": "Lead Business Intelligence Strategist",
+                "responsibilities": []
+            }
+        ],
+        "black_nisus_llc,\u00a0atlanta,\u00a0ga": [
+            "May 2020 \u2013 Present",
+            "Drive data strategy transformation to enhance analytics processes, infrastructure, and insights generation.",
+            "Collaborate with Agile teams to develop tailored full-stack solutions using cutting-edge technologies.",
+            "Design and implement cloud-based solutions on AWS, Azure, and Google Cloud for robust and scalable data processing workflows.",
+            "Conduct performance tuning and enhancement of SQL Server databases, achieving up to 50% improvement in query performance.",
+            "Lead data transformation initiatives, integrating advanced analytics and machine learning for strategic decision-making.",
+            "Develop comprehensive business intelligence strategies, including dashboard creation and operational reporting.",
+            "Implement data governance frameworks to ensure data quality, integrity, and compliance with industry standards.",
+            "Facilitate cross-functional collaboration to align data initiatives with business objectives and operational needs.",
+            "Mentor and develop team members, fostering a culture of continuous improvement and innovation.",
+            "Build strong relationships with customers through attentive listening skills and excellent problem-solving abilities.",
+            "Develop and implement strategies to increase market share and profitability in highly competitive industries.",
+            "Manage executive-level relationships with key stakeholders to ensure alignment on strategic objectives.",
+            "Conduct extensive research on new trends in Business Intelligence technology, such as Artificial Intelligence and Machine Learning.",
+            "Director of Business Intelligence"
+        ],
+        "the_walking_company,\u00a0westlake_village,\u00a0ca": [
+            "August 2016 \u2013 May 2019",
+            "Developed and optimized data management systems using SQL Server and other RDBMS platforms to enhance reporting accuracy and efficiency.",
+            "Collaborated with cross-functional teams in Agile environments to implement data solutions that aligned with business objectives.",
+            "Integrated advanced technologies, including machine learning and cloud solutions, to improve data handling and analytics capabilities.",
+            "Mentored junior engineers, fostering a culture of knowledge sharing and continuous improvement in data practices.",
+            "Managed a team of Data Analysts to ensure timely delivery of projects.",
+            "Developed best practices for maintaining security standards when dealing with sensitive information.",
+            "Gathered requirements from key stakeholders and translated them into technical specifications for BI solutions.",
+            "Established relationships with external vendors to acquire additional datasets which enabled deeper insights into customer preferences.",
+            "Optimized existing processes by utilizing statistical techniques such as regression analysis and\u00a0clustering algorithms.",
+            "Prepared detailed documentation about all aspects of the BI architecture to simplify maintenance operations.",
+            "Director of Business Intelligence"
+        ],
+        "benchmark_brands_inc.,\u00a0atlanta,\u00a0ga": [
+            "May 2015 \u2013 August 2016",
+            "Designed and implemented secure, scalable data warehousing solutions, enhancing data accessibility and reliability.",
+            "Translated complex technical concepts for non-technical stakeholders to support informed decision-making.",
+            "Promoted the adoption of advanced data modeling and analytics tools, driving business performance improvements.",
+            "Developed complex SQL queries and data models to support comprehensive reporting and analytics.",
+            "Developed and implemented a comprehensive Business Intelligence strategy to improve data-driven decision-making.",
+            "Led the design, development, and deployment of advanced analytics solutions in support of business objectives.",
+            "Senior Manager of Business Intelligence",
+            "April 2012 \u2013 May 2015",
+            "Implemented a data-driven culture, increasing data utilization by 25% and improving decision-making across all business units.",
+            "Developed a comprehensive data governance framework, achieving a 95% data accuracy rate and ensuring compliance with data privacy regulations.",
+            "Designed and executed advanced analytics and predictive modeling techniques, improving forecasting accuracy by 15% and supporting strategic planning initiatives.",
+            "Enhanced self-service analytics adoption by 25% through BI training programs, improving data literacy and empowering business users.",
+            "Streamlined BI development processes, reducing project delivery time by 20% and improving responsiveness to business needs."
+        ],
+        "education": [
+            "Master of Business Administration (M.B.A.) in Information System Management",
+            "Keller Graduate School of Management",
+            "Bachelor of Science (B.B.A.) in Business Administration",
+            "Georgia State University"
+        ],
+        "certifications_and_development": [],
+        "completed_certifications": [
+            "Certificate of Completion in Data Science \u2013 Flatiron School",
+            "Microsoft Certified Technology Specialist in SQL Server Business Intelligence",
+            "Microsoft Certified Professional"
+        ],
+        "certifications_in_progress": [
+            "AWS Certified Solutions Architect - Associate (Target Completion: February 2025)",
+            "Certified Scrum Master (Target Completion: March 2025)",
+            "Microsoft Certified: Azure Data Engineer Associate (Target Completion: March 2025)"
+        ],
+        "planned_certifications": [
+            "Google Professional Data Engineer (Target Completion: April 2025)",
+            "Databricks Certified Data Engineer Associate (Target Completion: June 2025)",
+            "AWS Certified Machine Learning \u2013 Specialty (Target Completion: July 2025)"
+        ],
+        "key_achievements": [],
+        "data_fabric_spearheaded_the_implementation_of_a_comprehensive_data_fabric_solution_for_a_fortune_500_company,_resulting_in_a_40%_improvement_in_data_accessibility_and_a_25%_reduction_in_data_management_costs.": [],
+        "data_mesh": [
+            "Designed and executed data mesh architecture for a global financial services firm, enabling real-time data sharing across 20+ business units and improving decision-making speed by 60%."
+        ],
+        "cloud_data_lake": [
+            "Led the development of a cloud-based data lake for a major retailer, consolidating data from 50+ sources and enabling advanced analytics that drove a 15% increase in customer retention."
+        ],
+        "predictive_maintenance": [
+            "Implemented a machine learning-driven predictive maintenance system for a manufacturing client, reducing equipment downtime by 30% and saving $5 million annually in maintenance costs."
+        ],
+        "fraud_detection": [
+            "Developed a real-time fraud detection system for a fintech startup, leveraging advanced analytics and machine learning to reduce fraudulent transactions by 75% within the first six months of deployment."
+        ],
+        "customer_360": [
+            "Led a cross-functional team in creating a customer 360 platform for a telecommunications company, integrating data from 10+ systems to provide a unified view of 50 million customers, resulting in a 20% increase in upsell opportunities."
+        ],
+        "data_governance": [
+            "Designed and implemented a data governance framework for a healthcare provider, ensuring HIPAA compliance and improving data quality scores by 40% across critical datasets."
+        ],
+        "iot_analytics": [
+            "Architected a scalable IoT data processing platform for a smart city initiative, handling data from 100,000+ sensors and enabling real-time analytics for traffic management, reducing average commute times by 15%."
+        ],
+        "nlp_solution": [
+            "Developed a natural language processing solution for a global media company, automating content tagging and recommendation engines, leading to a 35% increase in user engagement and content consumption."
+        ],
+        "cloud_migration": [
+            "Led the migration of a legacy data warehouse to a modern cloud-based analytics platform for a financial services client, reducing query times by 90% and enabling self-service analytics for 5,000+ users."
+        ],
+        "projects": [],
+        "gaf_materials_corp.": [
+            "Project: Data Reporting and Validation Enhancements, 2023 - Present",
+            "Goal:",
+            "Streamline data reporting and validation processes by transitioning to advanced analytics platforms, ensuring data integrity and consistency across multiple systems.",
+            "Responsibilities:",
+            "Managed the transition of Universal Analytics (UA) reports to a new reporting structure, grouping them by priority and exporting data using specified configurations.",
+            "Conducted thorough user acceptance testing (UAT) for GA4 Product Detail and Listing Pages, ensuring data consistency between reports and actual user interactions.",
+            "Developed custom reports in BigQuery, validating data accuracy to meet organizational reporting needs.",
+            "Validated data consistency between Google BigQuery, Google Analytics, and Amazon S3, identifying and resolving discrepancies to maintain high data integrity.",
+            "Results:",
+            "Successfully transitioned all UA reports with a maintained data integrity rate of 95%.",
+            "Achieved a validation success rate of 95% for GA4 reports, enhancing user satisfaction and report reliability.",
+            "Created multiple custom reports with a validation success rate of 98%, improving decision-making capabilities.",
+            "Ensured a data consistency percentage of 98% between systems, significantly reducing errors and enhancing data reliability.",
+            "Nando's",
+            "Project: Web and Mobile Analytics Enhancement, 2023 - Present",
+            "Goal:",
+            "Enhance the understanding of user behavior across web and mobile platforms, improving engagement and optimizing marketing strategies.",
+            "Responsibilities:",
+            "Analyzed the effectiveness of sessions associated with the 'oat / qr_code' source and medium using BigQuery and TagPipes.",
+            "Identified and tracked new user sessions, extracting distinct session IDs to analyze engagement metrics and improve user acquisition strategies.",
+            "Monitored returning user sessions, assessing retention strategies by retrieving session IDs for users who visited within the last 90 days.",
+            "Evaluated mobile app user sessions in the U.S. and Canada, providing insights into mobile user behavior and engagement.",
+            "Conducted comprehensive analysis of web user sessions in the U.S. and Canada to understand traffic patterns and user engagement.",
+            "Results:",
+            "Achieved a conversion rate of 5% from 'oat / qr_code' traffic sessions, enhancing marketing effectiveness.",
+            "Provided insights into new user acquisition strategies, leading to improved engagement metrics for new users.",
+            "Identified that returning users accounted for 40% of total sessions, offering insights into user loyalty and engagement.",
+            "Recorded a 25% increase in app user sessions compared to the previous period, highlighting trends in mobile user behavior.",
+            "Delivered valuable insights into U.S. and Canadian web traffic patterns, supporting strategic decision-making.",
+            "Rawsoft Inc.",
+            "Project: Cloud Migration and Data Integration, 2023 \u2013 Present",
+            "Goal:",
+            "Streamline Rawsoft\u2019s data operations by migrating legacy systems to a cloud-based infrastructure, enhancing data integration and accessibility.",
+            "Responsibilities:",
+            "Led the migration of legacy systems to AWS, ensuring minimal downtime and seamless integration with existing data workflows.",
+            "Developed automated data pipelines using Python and SQL to enhance data processing efficiency.",
+            "Collaborated with cross-functional teams to align data strategies with business objectives and improve stakeholder engagement.",
+            "Implemented robust data governance frameworks to ensure data quality, security, and compliance.",
+            "Results:",
+            "Reduced operational costs by 25% through optimized cloud resource utilization.",
+            "Improved data processing speed by 35%, enabling faster decision-making.",
+            "Enhanced data accessibility and collaboration across departments, leading to a 20% increase in project efficiency.",
+            "Achieved a 30% reduction in data errors through improved governance practices.",
+            "Mitchell Gold + Bob Williams",
+            "Project: Data Optimization and Reporting Enhancements, 2021 \u2013 2023",
+            "Goal:",
+            "Improve inventory management, sales reporting, and customer data integration to enhance operational efficiency and strategic decision-making.",
+            "Responsibilities:",
+            "Developed Power BI reports to monitor weekly sales, overstocks, and inventory data for each SKU, supporting inventory management and sales strategies.",
+            "Built automated reports for analyzing growth drivers and profitability across fiscal periods, enhancing leadership insights.",
+            "Assisted in creating a unified Customer Data Platform (CDP) by evaluating vendors for integration and master data management capabilities.",
+            "Conducted KPI analysis and platform assessments to align data processes with business goals.",
+            "Results:",
+            "Reduced overstocks by 15% and lowered inventory holding costs by $50k annually.",
+            "Increased sales reaction time by 20%, leading to more agile business responses.",
+            "Improved forecasting accuracy by 20%, reducing inventory write-offs by $100k annually.",
+            "Enhanced marketing efficiency by 12% through better customer segmentation, resulting in a 7% uplift in customer lifetime value (LTV).",
+            "Identified 25% of reporting gaps, improving alignment of data strategies with business goals and reducing reporting delays by 15%.",
+            "Krystal Restaurants",
+            "Project: Data Analytics Initiative, 2021",
+            "Goal:",
+            "Enhance Krystal Restaurants' data infrastructure and analytics capabilities, improving operational efficiency and strategic decision-making.",
+            "Responsibilities:",
+            "Led the design and implementation of a new data architecture to streamline data processing and reporting.",
+            "Collaborated with cross-functional teams to identify key business needs and tailor data solutions accordingly.",
+            "Developed advanced data models to support accurate sales forecasting and inventory management.",
+            "Implemented machine learning algorithms to enhance predictive analytics capabilities.",
+            "Ensured data integrity and compliance with industry standards through robust data governance practices.",
+            "Results",
+            "Increased data processing speed by 40%, optimizing business operations and reducing reporting time.",
+            "Improved data accuracy by 25%, ensuring more reliable insights and strategic decision-making.",
+            "Reduced data redundancy by 30%, streamlining data management and storage costs.",
+            "Enhanced user engagement by 20% through the development of intuitive dashboards and visualizations.",
+            "Achieved a 15% increase in sales forecasting accuracy, supporting better inventory management and resource allocation."
+        ]
+    }
+}

@@ -75,5 +75,3 @@ jobs:
           body: "Build and deployment failed!"
           to: ${{ secrets.EMAIL_TO }}
           from: sender@example.com
-
-
