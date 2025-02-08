@@ -1,0 +1,83 @@
+2025-01-21 15:55:04,209 - INFO - Loading template and JSON data...
+2025-01-21 15:55:04,209 - DEBUG - Raw data loaded: {
+    "name": "Troy D. Dunkley",
+    "desired_role": "Data Analytics Executive",
+    "phone": "+1-770-401-6527",
+    "email": "tdunkley@gmail.com",
+    "linkedin": "linkedin.com/in/troy-d-dunkley",
+    "location": "Atlanta, GA",
+    "summary": "Visionary Data and Analytics Executive with over 15 years of experience delivering scalable solutions...",
+    "skills": [
+        {
+            "group": "Technical Proficiencies",
+            "items": "Python, SQL, Power BI, AWS"
+        },
+        {
+            "group": "Leadership",
+            "items": "Strategic Planning, Cross-Functional Leadership, Data Governance"
+        },
+        {
+            "group": "Project Management",
+            "items": "Agile, Jira, Team Collaboration"
+        },
+        {
+            "group": "Data Engineering",
+            "items": "ETL Processes, Data Warehousing, Cloud Platforms"
+        }
+    ],
+    "experience": [
+        {
+            "company": "Black Nisus, LLC",
+            "role": "Data Evangelist",
+            "dates": "2020 - Present",
+            "location": "Remote",
+            "responsibilities": [
+                "Developed advanced BI solutions.",
+                "Led cross-functional teams to deploy cloud-based platforms.",
+                "Improved data governance, increasing accuracy by 30%."
+            ]
+        },
+        {
+            "company": "The Walking Company",
+            "role": "Director of Business Intelligence",
+            "dates": "2015 - 2020",
+            "location": "Santa Barbara, CA",
+            "responsibilities": [
+                "Migrated legacy systems to Power BI, increasing reporting efficiency.",
+                "Designed dashboards for real-time insights."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "MBA in Information Systems Management",
+            "institution": "Keller Graduate School of Management"
+        },
+        {
+            "degree": "BBA in Finance",
+            "institution": "Georgia State University"
+        },
+        {
+            "degree": "Certificate of Completion in Data Science",
+            "institution": "Flatiron School"
+        }
+    ],
+    "key_achievements": [
+        "Increased data processing efficiency by 30% through automation.",
+        "Designed a scalable cloud data warehouse solution.",
+        "Enhanced analytics capabilities, driving a 20% ROI increase."
+    ],
+    "projects": [
+        {
+            "name": "UA Archive",
+            "dates": "2022",
+            "location": "Remote",
+            "goal": "Archive legacy analytics reports for compliance.",
+            "responsibilities": "Developed a scalable export pipeline using AWS and BigQuery.",
+            "results": "Reduced manual effort by 40%."
+        }
+    ]
+}
+2025-01-21 15:55:04,209 - INFO - Rendering the template...
+2025-01-21 15:55:04,220 - INFO - Saving rendered resume to output_resumes\rendered_resume_20250121_155504.docx...
+2025-01-21 15:55:04,234 - INFO - Resume successfully saved to: output_resumes\rendered_resume_20250121_155504.docx

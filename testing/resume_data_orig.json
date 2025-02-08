@@ -1,0 +1,38 @@
+{
+  "name": "Troy D. Dunkley",
+  "desired_role": "Data Analytics Executive",
+  "phone": "+1-770-401-6527",
+  "email": "tdunkley@gmail.com",
+  "linkedin": "linkedin.com/in/troy-d-dunkley",
+  "summary": "Visionary Data and Analytics Executive...",
+  "skills": [
+    { "group": "Leadership and Strategy", "items": "Strategic Planning, Team Leadership" },
+    { "group": "Technical Proficiencies", "items": "Python, SQL, Power BI, AWS" }
+  ],
+  "experience": [
+    {
+      "company": "Black Nisus, LLC",
+      "role": "Data Evangelist",
+      "dates": "2020 - Present",
+      "location": "Atlanta, GA",
+      "responsibilities": ["Developed advanced BI solutions.", "Led teams to deploy platforms."]
+    }
+  ],
+"education": [
+    { "degree": "MBA", "institution": "Keller Graduate School of Management" },
+    { "degree": "BBA", "institution": "Georgia State University" },
+    { "degree": "Certificate of Completion in Data Science", "institution": "Flatiron School" }
+]
+,
+  "key_achievements": ["Improved efficiency by 30%."],
+  "projects": [
+    {
+      "name": "UA Archive",
+      "dates": "2023",
+      "location": "Remote",
+      "goal": "Archive legacy reports.",
+      "responsibilities": "Developed scalable export pipelines.",
+      "results": "Reduced effort by 40%."
+    }
+  ]
+}

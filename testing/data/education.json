@@ -1,0 +1,14 @@
+{
+    "education": [
+        {
+            "degree": "Master of Business Administration",
+            "field": "Information Systems Management",
+            "institution": "Keller Graduate School of Management of DeVry University"
+        },
+        {
+            "degree": "Bachelor of Business Administration",
+            "field": "Finance",
+            "institution": "Georgia State University"
+        }
+    ]
+}

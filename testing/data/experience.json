@@ -1,0 +1,28 @@
+{
+    "experience": {
+      "roles": [
+        {
+          "title": "Data Evangelist",
+          "company": "Black Nisus, LLC",
+          "dates": "2020 - Present",
+          "location": "Atlanta, GA",
+          "responsibilities": [
+            "Developed and implemented advanced BI solutions.",
+            "Improved data governance, boosting accuracy by 30%.",
+            "Built automated pipelines, reducing manual data processing by 40%."
+          ]
+        },
+        {
+          "title": "BI Director",
+          "company": "Benchmark Brands, Inc.",
+          "dates": "2014 - 2020",
+          "location": "Atlanta, GA",
+          "responsibilities": [
+            "Led a team to modernize legacy BI platforms.",
+            "Introduced self-service reporting, reducing report generation time by 40%."
+          ]
+        }
+      ]
+    }
+  }
+  

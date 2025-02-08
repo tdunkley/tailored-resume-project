@@ -1,0 +1,82 @@
+{
+    "global": {
+      "header_font_size": 12,
+      "header_font_weight": "bold",
+      "header_capitalization": "all_caps",
+      "line_spacing_before": 6,
+      "line_spacing_after": 6
+    },
+    "sections": {
+      "personal_information": {
+        "name_capitalization": "uppercase",
+        "desired_role_capitalization": "title_case",
+        "contact_info_format": {
+          "font_size": 11
+        }
+      },
+      "summary": {
+        "sentence_limit": 2,
+        "font_style": "italic",
+        "font_size": 12,
+        "line_spacing_before": 6,
+        "line_spacing_after": 6
+      },
+      "skills": {
+        "header_capitalization": "all_caps",
+        "font_size": 12,
+        "font_weight": "bold",
+        "line_spacing_before": 6,
+        "line_spacing_after": 6,
+        "bullet_format": {
+          "font_size": 11,
+          "font_style": "normal"
+        }
+      },
+      "experience": {
+        "header_capitalization": "all_caps",
+        "font_size": 12,
+        "font_weight": "bold",
+        "line_spacing_before": 6,
+        "line_spacing_after": 6,
+        "bullet_format": {
+          "font_size": 11,
+          "font_style": "normal",
+          "bullet_style": "circle"
+        }
+      },
+      "education": {
+        "header_capitalization": "all_caps",
+        "font_size": 12,
+        "font_weight": "bold",
+        "line_spacing_before": 6,
+        "line_spacing_after": 6,
+        "degree_format": {
+          "font_size": 11,
+          "font_style": "italic"
+        }
+      },
+      "key_achievements": {
+        "header_capitalization": "all_caps",
+        "font_size": 12,
+        "font_weight": "bold",
+        "line_spacing_before": 6,
+        "line_spacing_after": 6,
+        "bullet_format": {
+          "font_size": 11,
+          "font_style": "normal"
+        }
+      },
+      "projects": {
+        "header_capitalization": "all_caps",
+        "font_size": 12,
+        "font_weight": "bold",
+        "line_spacing_before": 6,
+        "line_spacing_after": 6,
+        "bullet_format": {
+          "font_size": 11,
+          "font_style": "normal"
+        }
+      }
+    }
+  }
+  

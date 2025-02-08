@@ -1,0 +1,147 @@
+{
+    "personal_information": {
+      "name": "Troy D. Dunkley",
+      "contact_info": {
+        "phone": "+1-770-401-6527",
+        "email": "tdunkley@gmail.com",
+        "location": "Atlanta, GA",
+        "linkedin": "https://www.linkedin.com/in/troy-d-dunkley"
+      },
+      "rules": {
+        "global": ["Ensure name and contact info appear on every page", "LinkedIn should be a hyperlink"]
+      }
+    },
+    "summary": {
+      "content": "Visionary Data and Analytics Executive with over 15 years of experience.",
+      "rules": {
+        "sectional": ["Summarize experience relevant to the job description", "Limit to 2-3 lines"],
+        "global": ["Ensure alignment with the Desired Role globally"]
+      }
+    },
+    "skills": {
+      "static": ["Technical Skills", "Leadership Skills"],
+      "dynamic": ["Skills derived from job description"],
+      "rules": {
+        "sectional": ["Reflect skills explicitly stated in the job description", "Avoid unrelated skills"],
+        "global": ["No duplicate skills across the resume"]
+      }
+    },
+    "experience": {
+      "roles": [
+        {
+          "company": "Black Nisus, LLC",
+          "title": "Data Evangelist",
+          "location": "Atlanta, GA",
+          "dates": "2020 - Present",
+          "responsibilities": [
+            "Developed and implemented advanced BI solutions.",
+            "Improved data governance, boosting accuracy by 30%.",
+            "Built automated pipelines, reducing manual data processing by 40%."
+          ]
+        }
+      ],
+      "rules": {
+        "sectional": [
+          "Limit to 5 bullets per role",
+          "Prioritize responsibilities that align with job description"
+        ],
+        "cross_sectional": [
+          "Avoid duplicate verbs across roles and projects",
+          "Ensure consistent action-oriented phrasing across roles and achievements"
+        ]
+      }
+    },
+    "education": {
+      "entries": [
+        {
+          "school": "Flatiron School",
+          "degree": "Certificate of Completion",
+          "location": "Atlanta, GA",
+          "focus": "Data Science"
+        },
+        {
+          "school": "Keller Graduate School of Management",
+          "degree": "MBA",
+          "location": "Atlanta, GA",
+          "focus": "Information Systems Management"
+        }
+      ]
+    },
+    "key_achievements": {
+      "entries": [
+        {
+          "title": "Spearheaded Digital Transformation Initiative",
+          "description": "Orchestrated a company-wide initiative, improving efficiency by 30%."
+        },
+        {
+          "title": "Enhanced Data Analytics Capabilities",
+          "description": "Built scalable solutions, driving insights for strategic decisions."
+        }
+      ],
+      "rules": {
+        "sectional": ["Highlight measurable outcomes", "Avoid vague or generic achievements"],
+        "cross_sectional": ["No repeated achievements across roles and projects"]
+      }
+    },
+    "projects": {
+      "entries": [
+        {
+          "title": "UA Archive",
+          "goal": "Archive legacy analytics reports for compliance.",
+          "responsibilities": "Developed scalable export pipeline using AWS and BigQuery.",
+          "results": "Reduced manual effort by 40%."
+        }
+      ],
+      "rules": {
+        "sectional": ["Prioritize projects relevant to the job description"],
+        "cross_sectional": ["Ensure consistency with Experience section verbs and skills"]
+      }
+    },
+    "formatting": {
+      "global": {
+        "font_size": {
+          "headers": 14,
+          "content": 11
+        },
+        "font_style": {
+          "headers": "bold",
+          "content": "regular"
+        },
+        "line_spacing": {
+          "headers": 1.5,
+          "content": 1.15
+        }
+      },
+      "sectional": {
+        "summary": {
+          "line_spacing": 1.5,
+          "font_style": "italic"
+        },
+        "experience": {
+          "bullet_style": "•",
+          "line_spacing": 1.15,
+          "font_style": "regular"
+        },
+        "projects": {
+          "goal_bold": true,
+          "results_bold": true
+        }
+      }
+    },
+    "tailoring_rules": {
+      "global_rules": [
+        "Avoid duplicate verbs across all sections",
+        "Ensure ATS compatibility by using simple formatting",
+        "Prioritize relevant details per the job description"
+      ],
+      "sectional_rules": [
+        "Summary must align with key job responsibilities",
+        "Skills section must directly reflect job requirements"
+      ],
+      "cross_sectional_rules": [
+        "Consistent verb usage between Experience and Projects",
+        "No repeated phrases in Summary and Key Achievements"
+      ]
+    }
+  }
+  

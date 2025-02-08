@@ -1,0 +1,483 @@
+{
+    "rules": {
+        "global_formatting": {
+            "header_font_size": 12,
+            "header_font_weight": "bold",
+            "header_capitalization": "all_caps",
+            "line_spacing_before": 6,
+            "line_spacing_after": 6
+        },
+        "sectional_rules": [
+            "Summary must align with key job responsibilities",
+            "Skills section must directly reflect job requirements"
+        ],
+        "cross_sectional_rules": [
+            "Consistent verb usage between Experience and Projects",
+            "No repeated phrases in Summary and Key Achievements"
+        ],
+        "static_formatting": [
+            "Avoid duplicate verbs across all sections",
+            "Ensure ATS compatibility by using simple formatting",
+            "Prioritize relevant details per the job description"
+        ],
+        "dynamic_rules": {
+            "non_formatting": {
+                "unique_verbs": true,
+                "verb_synonyms": {
+                    "developed": [
+                        "created",
+                        "engineered",
+                        "built",
+                        "crafted"
+                    ],
+                    "implemented": [
+                        "executed",
+                        "deployed",
+                        "realized",
+                        "introduced"
+                    ],
+                    "managed": [
+                        "oversaw",
+                        "directed",
+                        "supervised",
+                        "coordinated"
+                    ]
+                },
+                "minimum_requirements": {
+                    "experience_bullets": 3,
+                    "skills_groups": 4,
+                    "key_achievements": 3,
+                    "projects": 2
+                },
+                "keyword_optimization": [
+                    "data-driven",
+                    "analytics",
+                    "machine learning",
+                    "cloud"
+                ]
+            },
+            "content_tailoring": {
+                "summary": "Customized to job description",
+                "bullet_points": "Tailored for role-specific tasks and achievements",
+                "skills": "Adjusted to align with required qualifications"
+            }
+        },
+        "remediation_strategies": {
+            "duplicate_verbs": "Replace duplicate verbs dynamically with synonyms from a local database or API.",
+            "minimum_items": "Add placeholders for missing items to meet minimum requirements for sections.",
+            "missing_sections": "Insert placeholders for mandatory sections if they are absent.",
+            "keyword_optimization": "Add ATS keywords dynamically to relevant sections (e.g., Skills, Summary).",
+            "formatting_fixes": "Apply correct fonts, sizes, spacing, and bullet styles from static formatting rules."
+        },
+        "validation_workflow": {
+            "detection": "Run validation on all sections to identify failures.",
+            "remediation": "Automatically fix issues based on predefined strategies.",
+            "revalidation": "Re-run validation checks after applying fixes to ensure compliance.",
+            "finalization": "Generate resume only if all rules pass validation."
+        },
+        "section_structure": {
+            "section_order": [
+                "Name and Contact Info",
+                "Summary",
+                "Skills",
+                "Experience",
+                "Education",
+                "Key Achievements",
+                "Projects"
+            ],
+            "mandatory_sections": [
+                "Name and Contact Info",
+                "Experience",
+                "Skills"
+            ],
+            "optional_sections": [
+                "Key Achievements",
+                "Projects"
+            ]
+        },
+        "formatting": {
+            "fonts": {
+                "section_header": {
+                    "font": "Arial",
+                    "size": 12,
+                    "bold": true,
+                    "color": "#000080"
+                },
+                "sub_header": {
+                    "font": "Arial",
+                    "size": 11,
+                    "bold": true,
+                    "color": "#000000"
+                },
+                "content": {
+                    "font": "Arial",
+                    "size": 10,
+                    "bold": false,
+                    "color": "#404040"
+                }
+            },
+            "spacing": {
+                "section_header": {
+                    "before": 10,
+                    "after": 10,
+                    "line_spacing": 1.5
+                },
+                "sub_header": {
+                    "before": 3,
+                    "after": 3,
+                    "line_spacing": 1.15
+                },
+                "content": {
+                    "before": 0,
+                    "after": 5,
+                    "line_spacing": 1.15
+                }
+            },
+            "bullets": {
+                "type": "circle",
+                "indentation": 1
+            }
+        },
+        "non_formatting": {
+            "unique_verbs": true,
+            "verb_synonyms": {
+                "developed": [
+                    "created",
+                    "engineered",
+                    "built",
+                    "crafted"
+                ],
+                "implemented": [
+                    "executed",
+                    "deployed",
+                    "realized",
+                    "introduced"
+                ],
+                "managed": [
+                    "oversaw",
+                    "directed",
+                    "supervised",
+                    "coordinated"
+                ]
+            },
+            "minimum_requirements": {
+                "experience_bullets": 3,
+                "skills_groups": 4,
+                "key_achievements": 3,
+                "projects": 2
+            },
+            "keyword_optimization": [
+                "data-driven",
+                "analytics",
+                "machine learning",
+                "cloud"
+            ]
+        },
+        "validation_results": [
+            {
+                "timestamp": "2025-01-17 17:08:32",
+                "section": "experience",
+                "rule": "Unique Verbs",
+                "result": "PASS",
+                "comment": null
+            },
+            {
+                "timestamp": "2025-01-17 17:08:32",
+                "section": "key_achievements",
+                "rule": "Unique Verbs",
+                "result": "PASS",
+                "comment": null
+            },
+            {
+                "timestamp": "2025-01-17 17:08:32",
+                "section": "skills",
+                "rule": "Minimum Items",
+                "result": "PASS",
+                "comment": null
+            },
+            {
+                "timestamp": "2025-01-17 17:08:32",
+                "section": "projects",
+                "rule": "Minimum Items",
+                "result": "PASS",
+                "comment": null
+            },
+            {
+                "timestamp": "2025-01-17 17:08:32",
+                "section": "key_achievements",
+                "rule": "Minimum Items",
+                "result": "PASS",
+                "comment": null
+            }
+        ]
+    },
+    "sections": {
+        "personal_information": {
+            "name": "Troy D. Dunkley",
+            "desired_role": "Senior Data Architect",
+            "contact_info": {
+                "phone": "+1-770-401-6527",
+                "email": "tdunkley@gmail.com",
+                "location": "Atlanta, GA",
+                "linkedin": "https://www.linkedin.com/in/troy-d-dunkley"
+            },
+            "rules": {
+                "global": [
+                    "Ensure name and contact info appear on every page",
+                    "LinkedIn should be a hyperlink",
+                    "Adhere to ATS-friendly formatting",
+                    "Capitalize the name"
+                ]
+            },
+            "formatting": {
+                "name": {
+                    "font_size": 14,
+                    "font_style": "bold",
+                    "capitalization": "uppercase"
+                },
+                "desired_role": {
+                    "font_size": 12,
+                    "font_style": "italic",
+                    "capitalization": "title_case"
+                },
+                "contact_info": {
+                    "font_size": 11,
+                    "font_style": "regular",
+                    "line_spacing": {
+                        "before": 4,
+                        "after": 4
+                    }
+                }
+            }
+        },
+        "summary": {
+            "static_content": "Visionary Data and Analytics Executive with over 15 years of experience.",
+            "dynamic_content": "Specializes in leveraging data to drive decision-making, enhance operations, and achieve measurable business outcomes.",
+            "rules": {
+                "sectional": [
+                    "Ensure the summary reflects the job description.",
+                    "Limit content to two concise sentences."
+                ],
+                "cross_sectional": [
+                    "No duplicate verbs across Summary, Experience, and Key Achievements."
+                ]
+            },
+            "formatting": {
+                "font_size": 12,
+                "font_style": "italic",
+                "line_spacing": {
+                    "before": 6,
+                    "after": 6
+                }
+            }
+        },
+        "skills": {
+            "groups": [
+                {
+                    "group_name": "Technical Skills",
+                    "skills_list": [
+                        "Python",
+                        "SQL",
+                        "Power BI",
+                        "AWS"
+                    ]
+                },
+                {
+                    "group_name": "Soft Skills",
+                    "skills_list": [
+                        "Data Governance",
+                        "Predictive Analytics"
+                    ]
+                }
+            ],
+            "rules": {
+                "sectional": [
+                    "Reflect skills explicitly stated in the job description",
+                    "Avoid unrelated skills"
+                ],
+                "global": [
+                    "No duplicate skills across the resume"
+                ]
+            },
+            "formatting": {
+                "group_name": {
+                    "font_style": "bold",
+                    "font_size": 12
+                },
+                "skills_list": {
+                    "sentence_case": true,
+                    "separator": ", ",
+                    "font_size": 11
+                }
+            }
+        },
+        "experience": {
+            "roles": [
+                {
+                    "company": "Black Nisus, LLC",
+                    "title": "Data Evangelist",
+                    "location": "Atlanta, GA",
+                    "dates": "2020 - Present",
+                    "responsibilities": [
+                        "Developed and implemented advanced BI solutions.",
+                        "Improved data governance, boosting accuracy by 30%.",
+                        "Built automated pipelines, reducing manual data processing by 40%."
+                    ]
+                },
+                {
+                    "company": "Benchmark Brands, Inc.",
+                    "title": "BI Director",
+                    "location": "Atlanta, GA",
+                    "dates": "2014 - 2020",
+                    "responsibilities": [
+                        "Led a team to modernize legacy BI platforms.",
+                        "Introduced self-service reporting, reducing report generation time by 40%."
+                    ]
+                }
+            ],
+            "rules": {
+                "sectional": [
+                    "Use 2-4 bullets per role for older roles (>10 years old).",
+                    "Use 3-6 bullets per role for recent roles (last 10 years).",
+                    "Prioritize recent roles within the last 10 years.",
+                    "Bullets should be tailored to the desired role, emphasizing leadership and BI-related achievements."
+                ],
+                "min_bullets_recent_roles": 3,
+                "max_bullets_recent_roles": 6,
+                "min_bullets_older_roles": 2,
+                "max_bullets_older_roles": 4,
+                "cross_sectional": [
+                    "Avoid duplicate verbs across roles and projects.",
+                    "Ensure consistent action-oriented phrasing across roles and achievements."
+                ]
+            },
+            "formatting": {
+                "title": {
+                    "font_size": 12,
+                    "font_style": "bold"
+                },
+                "location": {
+                    "font_size": 11,
+                    "font_style": "italic"
+                },
+                "responsibilities": {
+                    "font_size": 11,
+                    "font_style": "regular",
+                    "line_spacing": {
+                        "before": 6,
+                        "after": 6
+                    },
+                    "bullet_style": "\u2022"
+                }
+            }
+        },
+        "education": {
+            "entries": [
+                {
+                    "school": "Flatiron School",
+                    "degree": "Certificate of Completion",
+                    "location": "Atlanta, GA",
+                    "focus": "Data Science"
+                },
+                {
+                    "school": "Keller Graduate School of Management",
+                    "degree": "MBA",
+                    "location": "Atlanta, GA",
+                    "focus": "Information Systems Management"
+                }
+            ],
+            "formatting": {
+                "font_size": 11,
+                "font_style": "regular",
+                "line_spacing": {
+                    "before": 6,
+                    "after": 6
+                }
+            }
+        },
+        "key_achievements": {
+            "entries": [
+                {
+                    "title": "Spearheaded Digital Transformation Initiative",
+                    "description": "Orchestrated a company-wide initiative, improving efficiency by 30%."
+                },
+                {
+                    "title": "Enhanced Data Analytics Capabilities",
+                    "description": "Built scalable solutions, driving insights for strategic decisions."
+                }
+            ],
+            "rules": {
+                "sectional": [
+                    "Highlight measurable outcomes",
+                    "Avoid vague or generic achievements"
+                ],
+                "cross_sectional": [
+                    "No repeated achievements across roles and projects"
+                ]
+            },
+            "formatting": {
+                "title": {
+                    "font_style": "bold",
+                    "font_size": 12
+                },
+                "description": {
+                    "font_style": "regular",
+                    "font_size": 11
+                },
+                "line_spacing": {
+                    "before": 6,
+                    "after": 6
+                }
+            }
+        },
+        "projects": {
+            "entries": [
+                {
+                    "title": "UA Archive",
+                    "company": "GAF",
+                    "dates": "2022",
+                    "goal": "Archive legacy analytics reports for compliance.",
+                    "responsibilities": "Developed scalable export pipeline using AWS and BigQuery.",
+                    "results": "Reduced manual effort by 40%."
+                }
+            ],
+            "rules": {
+                "sectional": [
+                    "Prioritize projects relevant to the job description"
+                ],
+                "cross_sectional": [
+                    "Ensure consistency with Experience section verbs and skills"
+                ]
+            },
+            "formatting": {
+                "title": {
+                    "font_style": "bold",
+                    "font_size": 12
+                },
+                "details": {
+                    "font_style": "regular",
+                    "font_size": 11
+                },
+                "line_spacing": {
+                    "before": 6,
+                    "after": 6
+                }
+            }
+        },
+        "validation_rules": {
+            "global_rules": [
+                "Avoid duplicate verbs across all sections",
+                "Ensure ATS compatibility by using simple formatting",
+                "Prioritize relevant details per the job description"
+            ],
+            "sectional_rules": [
+                "Summary must align with key job responsibilities",
+                "Skills section must directly reflect job requirements"
+            ],
+            "cross_sectional_rules": [
+                "Consistent verb usage between Experience and Projects",
+                "No repeated phrases in Summary and Key Achievements"
+            ]
+        }
+    }
+}

@@ -1,0 +1,97 @@
+{
+  "header": {
+    "name": "Troy D. Dunkley",
+    "desired_role": "Data Analytics Executive",
+    "contact_info": {
+      "phone": "+1-770-401-6527",
+      "email": "tdunkley@gmail.com",
+      "location": "Atlanta, GA",
+      "linkedin": "https://www.linkedin.com/in/troy-d-dunkley"
+    }
+  },
+  "summary": {
+    "content": "Visionary Data and Analytics Executive with over 15 years of experience.",
+    "validation": {
+      "no_duplicates": true,
+      "max_length": 300
+    }
+  },
+  "skills": {
+    "content": [
+      "Python",
+      "SQL",
+      "Power BI",
+      "AWS",
+      "Team Management",
+      "Strategic Planning"
+    ],
+    "validation": {
+      "no_duplicates": true,
+      "max_display_count": 10
+    }
+  },
+  "experience": {
+    "content": [
+      {
+        "role": "Data Evangelist",
+        "company": "Black Nisus, LLC",
+        "location": "Atlanta, GA",
+        "duration": "2020 - Present",
+        "responsibilities": [
+          "Developed and implemented advanced BI solutions.",
+          "Improved data governance, boosting accuracy by 30%.",
+          "Built automated pipelines, reducing manual data processing by 40%."
+        ]
+      }
+    ],
+    "validation": {
+      "no_duplicates": true
+    }
+  },
+  "education": {
+    "content": [
+      {
+        "school": "Flatiron School",
+        "degree": "Certificate of Completion | Data Science",
+        "location": "Atlanta, GA"
+      },
+      {
+        "school": "Keller Graduate School of Management",
+        "degree": "Master of Business Administration (MBA) | Information Systems Management",
+        "location": "Atlanta, GA"
+      },
+      {
+        "school": "Georgia State University",
+        "degree": "Bachelor of Business Administration (BBA) | Finance",
+        "location": "Atlanta, GA"
+      }
+    ]
+  },
+  "key_achievements": {
+    "content": [
+      "Spearheaded Digital Transformation Initiative: Orchestrated a company-wide initiative, improving efficiency by 30%.",
+      "Enhanced Data Analytics Capabilities: Built scalable solutions, driving insights for strategic decisions."
+    ],
+    "validation": {
+      "max_display_count": 5
+    }
+  },
+  "projects": {
+    "content": [
+      {
+        "name": "UA Archive",
+        "year": "2023",
+        "location": "Remote",
+        "details": {
+          "goal": "Archive legacy analytics reports for compliance.",
+          "responsibilities": "Developed scalable export pipeline using AWS and BigQuery.",
+          "results": "Reduced manual effort by 40%."
+        }
+      }
+    ],
+    "validation": {
+      "no_duplicates": true,
+      "prioritize_by_relevance": true
+    }
+  }
+}
